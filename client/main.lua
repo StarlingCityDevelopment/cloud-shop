@@ -1,4 +1,4 @@
-if not LoadResourceFile(cache.resource, "web/dist/index.html") then error("UI has not been built! Download the release version from https://github.com/cloud-resources/cloud-shop/releases") end
+if not LoadResourceFile(cache.resource, "dist/index.html") then error("UI has not been built! Download the release version from https://github.com/cloud-resources/cloud-shop/releases") end
 
 -- Configuration
 local Config = require("config.main")

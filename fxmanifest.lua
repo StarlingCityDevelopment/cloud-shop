@@ -32,10 +32,10 @@ client_scripts {
 }
 
 files {
-    "web/dist/**/*",
+    "dist/**/*",
     "config/*.lua",
     "locales/*.json",
     "client/modules/*.lua",
 }
 
-ui_page { "web/dist/index.html" }
+ui_page "dist/index.html"
