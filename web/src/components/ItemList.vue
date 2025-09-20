@@ -24,7 +24,7 @@ const addToCart = (name: string): void => {
 
   const existingIndex = shopStore.cart.findIndex(cartItem => cartItem.name === item.name)
 
-  if (existingIndex !== -1) {
+  if (existingIndex !== -1 && shopStore.cart[existingIndex] !== undefined) {
     shopStore.cart[existingIndex].quantity += 1
   } else {
     shopStore.cart.push({
