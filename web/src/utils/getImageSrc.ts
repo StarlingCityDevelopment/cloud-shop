@@ -4,7 +4,7 @@ export const getImageSrc = (name: string): string | undefined => {
   const configStore = useConfigStore()
 
   if (!name || typeof name !== "string") return undefined
-  return `${configStore.imagePath}${name}.png`
+  return `${configStore.imagePath}${name}.webp`
 }
 
 export const onImageError = (event: Event) => {
