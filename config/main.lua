@@ -46,12 +46,18 @@ return {
 			},
 
 			Items = {
-				{ name = "tosti", label = "Tosti", category = "food", price = 3 },
+				{ name = "sandwich", label = "Sandwich", category = "food", price = 3 },
+				{ name = "chips", label = "Chips", category = "food", price = 2 },
+				{ name = "candy", label = "Bonbon", category = "food", price = 1 },
+				{ name = "chocolatebar", label = "Barre Chocolatée", category = "food", price = 3 },
 				{ name = "water_bottle", label = 'Bouteille d\'eau', category = "drinks", price = 5 },
 				{ name = "radio", label = "Radio", category = "electronics", price = 375 },
 				{ name = "phone", label = "Phone", category = "electronics", price = 550 },
 				{ name = "cigarette", label = "Cigarette", category = "divers", price = 1 },
 				{ name = "skateboard", label = "Skateboard", category = "divers", price = 75 },
+				{ name = "t1ger_repairkit", label = "Kit de Réparation", category = "divers", price = 70 },
+				{ name = "medikit", label = "Kit de Soin", category = "divers", price = 60 },
+				{ name = "defib", label = "Défibrilateur", category = "divers", price = 100 },
 			},
 
 			Requirement = {
