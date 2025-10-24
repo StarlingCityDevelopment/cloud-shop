@@ -18,11 +18,11 @@ const filteredItems = computed(() => {
   return shopStore.items.filter(item => shopStore.selectedCategory === "all" || item.category === shopStore.selectedCategory)
 })
 
-const addToCart = (name: string): void => {
-  const item = shopStore.items.find(item => item.name === name)
+const addToCart = (name: string, metadata?: Record<string, unknown>): void => {
+  const item = shopStore.items.find(item => item.name === name && (metadata && JSON.stringify(item.metadata) === JSON.stringify(metadata)))
   if (!item) return
 
-  const existingIndex = shopStore.cart.findIndex(cartItem => cartItem.name === item.name)
+  const existingIndex = shopStore.cart.findIndex(cartItem => cartItem.name === item.name && JSON.stringify(cartItem.metadata) === JSON.stringify(item.metadata))
 
   if (existingIndex !== -1 && shopStore.cart[existingIndex] !== undefined) {
     shopStore.cart[existingIndex].quantity += 1
@@ -51,7 +51,7 @@ const addToCart = (name: string): void => {
           <div class="item-label">{{ item.label }}</div>
           <div class="item-price">{{ formatPrice(item.price) }}</div>
         </div>
-        <div class="add-to-cart" @click="addToCart(item.name)">{{ configStore.locales.main.item.add_cart }}</div>
+        <div class="add-to-cart" @click="addToCart(item.name, item.metadata)">{{ configStore.locales.main.item.add_cart }}</div>
       </div>
     </section>
   </transition>
