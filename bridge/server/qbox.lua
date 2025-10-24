@@ -37,11 +37,11 @@ end
 ---@param itemName string
 ---@param quantity number
 ---@return boolean, string
-local function addItem(source, itemName, quantity)
+local function addItem(source, itemName, quantity, metadata)
 	if not canCarryItem(source, itemName, quantity) then return false, "Cannot carry item" end
 
 	if GetResourceState("ox_inventory") == "started" then
-		local success = exports.ox_inventory:AddItem(source, itemName, quantity)
+		local success = exports.ox_inventory:AddItem(source, itemName, quantity, metadata)
 		return success, success and "Item added" or "Failed to add item"
 	else
 		log.error("[Bridge.AddItem] No supported inventory detected")

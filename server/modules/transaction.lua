@@ -74,7 +74,7 @@ lib.callback.register("cloud-shop:processTransaction", function(source, type, ca
 			goto skipItem
 		end
 
-		local success, message = Bridge.AddItem(source, item.name, item.quantity)
+		local success, message = Bridge.AddItem(source, item.name, item.quantity, item.metadata)
 		log.debug("AddItem: " .. message)
 
 		if not success then
