@@ -31,6 +31,7 @@ const addToCart = (name: string): void => {
       label: item.label,
       name: item.name,
       price: item.price,
+      metadata: item.metadata,
       quantity: 1,
       category: item.category,
     })
@@ -44,7 +45,7 @@ const addToCart = (name: string): void => {
     <section class="item-list" :key="shopStore.selectedCategory">
       <div class="item" v-for="item in filteredItems" :key="item.name">
         <div class="item-image">
-          <img :src="getImageSrc(item.name ?? 'fallback-item')" @error="onImageError" :alt="item.name" draggable="false" />
+          <img :src="getImageSrc(item.metadata?.image ?? item.name ?? 'fallback-item')" @error="onImageError" :alt="item.name" draggable="false" />
         </div>
         <div class="info">
           <div class="item-label">{{ item.label }}</div>

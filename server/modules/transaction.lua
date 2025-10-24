@@ -26,7 +26,7 @@ lib.callback.register("cloud-shop:processTransaction", function(source, type, ca
 	local validItems = {}
 	for i = 1, #shopItems do
 		local item = shopItems[i]
-		validItems[item.name] = item
+		validItems[#validItems+1] = item
 	end
 
 	local totalCartPrice = 0
@@ -40,7 +40,15 @@ lib.callback.register("cloud-shop:processTransaction", function(source, type, ca
 			goto skipItem
 		end
 
-		local configItem = validItems[item.name]
+		local configItem = false
+
+        for j = 1, #validItems do
+            if validItems[j].name == item.name and (validItems[j].metadata and lib.table.matches(validItems[j].metadata, item.metadata) or not validItems[j].metadata) then
+                configItem = validItems[j]
+                break
+            end
+        end
+
 		if not configItem then
 			log.warn("Non existent item in cart:" .. item.name)
 			goto skipItem

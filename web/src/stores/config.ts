@@ -1,7 +1,7 @@
 import { defineStore } from "pinia"
 
 export const useConfigStore = defineStore("config", () => {
-  const imagePath = <string>"item_images/"
+  const imagePath = <string>"https://i.fmfile.com/crYy4c7aRNeXoSSaCocBd/"
 
   const soundVolume = <number>0.5
 

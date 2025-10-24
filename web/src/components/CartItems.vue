@@ -77,7 +77,7 @@ const validateQuantityInput = (index: number, event?: KeyboardEvent): void => {
     <transition-group name="item-move">
       <div class="item" v-for="(item, index) in shopStore.cart" :key="item.name">
         <div class="item-info">
-          <img class="item-image" :src="getImageSrc(item.name ?? 'fallback-item')" @error="onImageError" :alt="item.name" draggable="false" />
+          <img class="item-image" :src="getImageSrc(item.metadata?.image ?? item.name ?? 'fallback-item')" @error="onImageError" :alt="item.name" draggable="false" />
           <div class="text-container">
             <span class="item-label">{{ item.label }}</span>
             <span class="item-price">{{ formatPrice(item.price * item.quantity) }}</span>
