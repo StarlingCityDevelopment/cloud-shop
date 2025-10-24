@@ -68,7 +68,7 @@ end
 ---@param itemName string
 ---@param quantity number
 ---@return boolean, string
-function Bridge.AddItem(source, itemName, quantity)
+function Bridge.AddItem(source, itemName, quantity, metadata)
 	if not source or source <= 0 then return false, "Invalid source" end
 	if not itemName then return false, "Invalid item name" end
 	if not quantity or quantity <= 0 then return false, "Invalid quantity" end
@@ -76,7 +76,7 @@ function Bridge.AddItem(source, itemName, quantity)
 	if isWeapon(itemName) then
 		return addWeapon(source, itemName)
 	else
-		return addItem(source, itemName, quantity)
+		return addItem(source, itemName, quantity, metadata)
 	end
 end
 
