@@ -745,5 +745,415 @@ return {
                 },
             },
         },
+
+        ["armoury"] = {
+            PointRadius = 25.0, -- The radius within which markers, peds, and other game elements related to the shop are displayed
+
+            Locations = {
+                vector4(-601.42, -412.45, 34.17, 44.34),
+                vector4(-662.2554, -933.3735, 21.8292, 183.0097),
+            },
+
+            --? For icons, use Iconify: https://icon-sets.iconify.design
+            Categories = {
+                { name = "Tous les produits", type = "all", icon = "ic:round-clear-all" },
+                { name = "Armes", type = "weapons", icon = "mdi:pistol" },
+                { name = "Chargeurs", type = "magazines", icon = "game-icons:machine-gun-magazine" },
+                { name = "Munitions", type = "ammos", icon = "game-icons:silver-bullet" },
+                { name = "Divers", type = "divers", icon = "ion:hammer" },
+            },
+
+            Items = {
+                { name = "WEAPON_COMBATPISTOL", label = "Pistolet de combat", category = "weapons", price = 0 },
+                { name = "WEAPON_KNIFE", label = "Couteau", category = "weapons", price = 0 },
+                { name = "WEAPON_NIGHTSTICK", label = "Matraque", category = "weapons", price = 0 },
+                { name = "WEAPON_STUNGUN", label = "Taser", category = "weapons", price = 0 },
+                { name = "WEAPON_FLASHLIGHT", label = "Lampe torche", category = "weapons", price = 0 },
+                { name = "WEAPON_TACTICALRIFLE", label = "Fusil tactique", category = "weapons", price = 0 },
+
+                -- Ammos
+                { name = "box_ammo_airsoft", label = "Boîte de billes Airsoft (250)", category = "ammos", price = 0 },
+                { name = "box_ammo_22", label = "Boîte de munitions .22 LR (120)", category = "ammos", price = 0 },
+                { name = "box_ammo_38", label = "Boîte de munitions .38 LC (60)", category = "ammos", price = 0 },
+                { name = "box_ammo_44", label = "Boîte de munitions .44 Magnum (50)", category = "ammos", price = 0 },
+                { name = "box_ammo_45", label = "Boîte de munitions .45 ACP (100)", category = "ammos", price = 0 },
+                { name = "box_ammo_50", label = "Boîte de munitions .50 AE (40)", category = "ammos", price = 0 },
+                { name = "box_ammo_9", label = "Boîte de munitions 9mm (120)", category = "ammos", price = 0 },
+                { name = "box_ammo_10", label = "Boîte de munitions 10mm (120)", category = "ammos", price = 0 },
+                { name = "box_ammo_rifle", label = "Boîte de munitions 5.56x45 (180)", category = "ammos", price = 0 },
+                { name = "box_ammo_rifle2", label = "Boîte de munitions 7.62x39 (150)", category = "ammos", price = 0 },
+                { name = "box_ammo_sniper", label = "Boîte de munitions 7.62x51 (80)", category = "ammos", price = 0 },
+                { name = "box_ammo_shotgun", label = "Boîte de cartouches 12 Gauge (50)", category = "ammos", price = 0 },
+
+                -- Divers
+                { name = "radio", label = "Radio", category = "divers", price = 0 },
+                { name = "handcuffs", label = "Menottes", category = "divers", price = 0 },
+                { name = "tracking_bracelet", label = "Bracelet de suivi", category = "divers", price = 0 },
+                { name = "bodycam", label = "Caméra corporelle", category = "divers", price = 0 },
+                { name = "dashcam", label = "Caméra pour véhicule", category = "divers", price = 0 },
+
+                -- Magazines
+                {
+                    name = "magazine",
+                    label = "Chargeur .22 Long Rifle",
+                    category = "magazines",
+                    price = 0,
+                    metadata = {
+                        label = 'Chargeur .22 Long Rifle',
+                        model = 'w_pi_pistolmk2_mag1',
+                        magType = 'magazine-22',
+                        ammoType = 'ammo-22',
+                        magSize = 15,
+                        ammo = 0,
+                        image = 'at_clip',
+                    }
+                },
+                {
+                    name = "magazine",
+                    label = "Chargeur .38 LC",
+                    category = "magazines",
+                    price = 0,
+                    metadata = {
+                        label = 'Chargeur .38 LC',
+                        model = 'w_pi_revolver_mag',
+                        magType = 'magazine-38',
+                        ammoType = 'ammo-38',
+                        magSize = 8,
+                        ammo = 0,
+                        image = 'at_clip',
+                    }
+                },
+                {
+                    name = "magazine",
+                    label = "Chargeur .44 Magnum",
+                    category = "magazines",
+                    price = 0,
+                    metadata = {
+                        label = 'Chargeur .44 Magnum',
+                        model = 'w_pi_revolver_mag',
+                        magType = 'magazine-44',
+                        ammoType = 'ammo-44',
+                        magSize = 6,
+                        ammo = 0,
+                        image = 'at_clip',
+                    }
+                },
+                {
+                    name = "magazine",
+                    label = "Chargeur .45 ACP",
+                    category = "magazines",
+                    price = 0,
+                    metadata = {
+                        label = 'Chargeur .45 ACP',
+                        model = 'w_pi_pistolmk2_mag1',
+                        magType = 'magazine-45',
+                        ammoType = 'ammo-45',
+                        magSize = 10,
+                        ammo = 0,
+                        image = 'at_clip',
+                    }
+                },
+                {
+                    name = "magazine",
+                    label = "Chargeur .50 AE",
+                    category = "magazines",
+                    price = 0,
+                    metadata = {
+                        label = 'Chargeur .50 AE',
+                        model = 'w_pi_heavypistol_mag',
+                        magType = 'magazine-50',
+                        ammoType = 'ammo-50',
+                        magSize = 7,
+                        ammo = 0,
+                        image = 'at_clip',
+                    }
+                },
+                {
+                    name = "magazine",
+                    label = "Chargeur 9mm",
+                    category = "magazines",
+                    price = 0,
+                    metadata = {
+                        label = 'Chargeur 9mm',
+                        model = 'w_pi_pistolmk2_mag1',
+                        magType = 'magazine-9',
+                        ammoType = 'ammo-9',
+                        magSize = 12,
+                        ammo = 0,
+                        image = 'at_clip',
+                    }
+                },
+                {
+                    name = "magazine",
+                    label = "Chargeur 10mm",
+                    category = "magazines",
+                    price = 0,
+                    metadata = {
+                        label = 'Chargeur 10mm',
+                        model = 'w_pi_pistolmk2_mag1',
+                        magType = 'magazine-10',
+                        ammoType = 'ammo-10',
+                        magSize = 11,
+                        ammo = 0,
+                        image = 'at_clip',
+                    }
+                },
+                {
+                    name = "magazine",
+                    label = "Chargeur .50 BMG",
+                    category = "magazines",
+                    price = 0,
+                    metadata = {
+                        label = 'Chargeur .50 BMG',
+                        model = 'w_sr_heavysniper_mag',
+                        magType = 'magazine-heavysniper',
+                        ammoType = 'ammo-heavysniper',
+                        magSize = 5,
+                        ammo = 0,
+                        image = 'at_clip',
+                    }
+                },
+                {
+                    name = "magazine",
+                    label = "Chargeur .50 Ball",
+                    category = "magazines",
+                    price = 0,
+                    metadata = {
+                        label = 'Chargeur .50 Ball',
+                        model = 'w_sr_musket_mag',
+                        magType = 'magazine-musket',
+                        ammoType = 'ammo-musket',
+                        magSize = 1,
+                        ammo = 0,
+                        image = 'at_clip',
+                    }
+                },
+                {
+                    name = "magazine",
+                    label = "Chargeur 5.56x45",
+                    category = "magazines",
+                    price = 0,
+                    metadata = {
+                        label = 'Chargeur 5.56x45',
+                        model = 'w_ar_rifle_mag',
+                        magType = 'magazine-rifle',
+                        ammoType = 'ammo-rifle',
+                        magSize = 30,
+                        ammo = 0,
+                        image = 'at_clip',
+                    }
+                },
+                {
+                    name = "magazine",
+                    label = "Chargeur 7.62x39",
+                    category = "magazines",
+                    price = 0,
+                    metadata = {
+                        label = 'Chargeur 7.62x39',
+                        model = 'w_ar_rifle_mag',
+                        magType = 'magazine-rifle2',
+                        ammoType = 'ammo-rifle2',
+                        magSize = 30,
+                        ammo = 0,
+                        image = 'at_clip',
+                    }
+                },
+                {
+                    name = "magazine",
+                    label = "Chargeur 7.62x51",
+                    category = "magazines",
+                    price = 0,
+                    metadata = {
+                        label = 'Chargeur 7.62x51',
+                        model = 'w_sr_sniper_mag',
+                        magType = 'magazine-sniper',
+                        ammoType = 'ammo-sniper',
+                        magSize = 5,
+                        ammo = 0,
+                        image = 'at_clip',
+                    }
+                },
+            },
+
+            Requirement = {
+                Job = {
+                    required = true, -- Whether a job is required to access the shop
+                    jobs = {
+                        {
+                            label = "Police", -- The display name of the required job
+                            name = "police",  -- The name of the required job
+                            grade = 0,        -- Minimum job grade required to access the shop
+                        },
+                        {
+                            label = "USSS", -- The display name of the required job
+                            name = "usss",  -- The name of the required job
+                            grade = 0,        -- Minimum job grade required to access the shop
+                        },
+                    },
+                },
+                License = {
+                    required = false,         -- Whether a license is required to access the shop
+                    buyDialog = true,         -- Displays a dialog prompting the player to purchase the required license
+                    label = "Weapon License", -- The display name of the required license
+                    type = "weapon",          -- The type of the required license (e.g., "weapon")
+                    price = 1000,             -- The cost of the license
+                },
+            },
+
+            Locales = { --? More locales including the currency symbol, button text and more can be found in "locales/"
+                MainHeader = {
+                    title = "Armurerie",
+                    tag = "Armes",
+                    description =
+                    "Bienvenue dans l'armurerie, où nous sommes toujours là pour vous armer, jour et nuit !\nDécouvrez une sélection de produits de qualité pour affronter la racaille !",
+                },
+                CartHeader = {
+                    title = "Panier",
+                    tag = "Panier",
+                    description =
+                    "Vérifiez vos articles sélectionnés avant de valider la commande",
+                },
+            },
+
+            Blip = {
+                enabled = false,     -- If true, displays a map blip for the shop locations
+                name = "Armurerie", -- Name displayed on the map
+                sprite = 110,       -- Blip icon type --? Reference: https://docs.fivem.net/docs/game-references/blips
+                color = 1,          -- Blip color --? Reference: https://docs.fivem.net/docs/game-references/blips/#blip-colors
+                scale = 0.7,        -- Size of the blip
+            },
+
+            Indicator = {
+                Ped = {
+                    enabled = true,                    -- If true, spawns a ped (NPC) at the locations
+                    model = `s_f_y_cop_01`,         -- Ped model type --? Reference: https://docs.fivem.net/docs/game-references/ped-models
+                    scenario = "WORLD_HUMAN_AA_SMOKE", -- Animation scenario for the ped --? Reference: https://github.com/DioneB/gtav-scenarios
+                },
+                Marker = {
+                    enabled = false,               -- If true, displays a marker at the shop locations
+                    type = 20,                     -- Marker type --? Reference: https://docs.fivem.net/docs/game-references/markers
+                    size = vec3(0.7, 0.7, 0.7),    -- Size of the marker
+                    color = { 65, 133, 235, 120 }, -- RGBA color of the marker
+                    bobUpAndDown = false,          -- If true, marker moves up and down
+                    faceCamera = false,            -- If true, marker faces the player's camera
+                    rotate = true,                 -- If true, marker rotates
+                },
+            },
+
+            Interaction = {
+                OpenKey = 38,        -- Default: 38 (E key) --? Reference: https://docs.fivem.net/docs/game-references/controls
+                HelpText = {
+                    enabled = false, -- If true, displays floating help text near the interaction point
+                    distance = 2.5,  -- Distance within which help text appears and is interactable
+                },
+                FloatingText = {
+                    enabled = false,             -- If true, displays floating text above the shop NPC
+                    distance = 2.5,              -- Distance within which floating text is visible and interactable
+                },
+                Target = {                       -- Uses ox_target by default --? (modifiable in config/functions.lua)
+                    enabled = true,              -- If true, enables targeting system
+                    boxZoneSize = vec3(4, 4, 4), -- Size of the target zone
+                    drawSprite = true,           -- If true, displays a sprite for the target zone
+                    distance = 2.5,              -- Interaction distance
+                },
+            },
+        },
+        ["ambulance_shop"] = {
+            PointRadius = 25.0, -- The radius within which markers, peds, and other game elements related to the shop are displayed
+
+            Locations = {
+                vec4(74.94, -364.29, 38.38, 248.84),
+            },
+
+            --? For icons, use Iconify: https://icon-sets.iconify.design
+            Categories = {
+                { name = "Tous les produits", type = "all", icon = "ic:round-clear-all" }, --! Required for all shops
+            },
+
+            Items = {
+                { label = 'Sac médical', name = 'medbag', category = "items", price = 0 },
+                { label = 'Kit de premiers secours', name = 'medikit', category = "items", price = 0 },
+                { label = 'Morphine 30MG', name = 'morphine30', category = "items", price = 0 },
+                { label = 'Percocet 30MG', name = 'perc30', category = "items", price = 0 },
+            },
+
+            Requirement = {
+                Job = {
+                    required = true, -- Whether a job is required to access the shop
+                    jobs = {
+                        {
+                            label = "EMS", -- The display name of the required job
+                            name = "ambulance",  -- The name of the required job
+                            grade = 0,        -- Minimum job grade required to access the shop
+                        },
+                    },
+                },
+                License = {
+                    required = false,         -- Whether a license is required to access the shop
+                    buyDialog = true,         -- Displays a dialog prompting the player to purchase the required license
+                    label = "Weapon License", -- The display name of the required license
+                    type = "weapon",          -- The type of the required license (e.g., "weapon")
+                    price = 1000,             -- The cost of the license
+                },
+            },
+
+            Locales = { --? More locales including the currency symbol, button text and more can be found in "locales/"
+                MainHeader = {
+                    title = "Pharmacie",
+                    tag = "Ambulance",
+                    description =
+                    "Bienvenue dans votre pharmacie, où nous sommes toujours là pour vous, jour et nuit !\nExplorez une sélection de produits de qualité, pour vous aider dans votre serment d'Hippocrate.",
+                },
+                CartHeader = {
+                    title = "Panier",
+                    tag = "Panier",
+                    description =
+                    "Vérifiez vos articles sélectionnés avant de valider la commande",
+                },
+            },
+
+            Blip = {
+                enabled = false,     -- If true, displays a map blip for the shop locations
+                name = "Pharmacie", -- Name displayed on the map
+                sprite = 51,        -- Blip icon type --? Reference: https://docs.fivem.net/docs/game-references/blips
+                color = 30,         -- Blip color --? Reference: https://docs.fivem.net/docs/game-references/blips/#blip-colors
+                scale = 0.6,        -- Size of the blip
+            },
+
+            Indicator = {
+                Ped = {
+                    enabled = true,                    -- If true, spawns a ped (NPC) at the locations
+                    model = `s_m_m_doctor_01`,                 -- Ped model type --? Reference: https://docs.fivem.net/docs/game-references/ped-models
+                    scenario = "WORLD_HUMAN_AA_SMOKE", -- Animation scenario for the ped --? Reference: https://github.com/DioneB/gtav-scenarios
+                },
+                Marker = {
+                    enabled = false,               -- If true, displays a marker at the shop locations
+                    type = 20,                     -- Marker type --? Reference: https://docs.fivem.net/docs/game-references/markers
+                    size = vec3(0.7, 0.7, 0.7),    -- Size of the marker
+                    color = { 65, 133, 235, 120 }, -- RGBA color of the marker
+                    bobUpAndDown = false,          -- If true, marker moves up and down
+                    faceCamera = false,            -- If true, marker faces the player's camera
+                    rotate = true,                 -- If true, marker rotates
+                },
+            },
+
+            Interaction = {
+                OpenKey = 38,        -- Default: 38 (E key) --? Reference: https://docs.fivem.net/docs/game-references/controls
+                HelpText = {
+                    enabled = false, -- If true, displays floating help text near the interaction point
+                    distance = 2.5,  -- Distance within which help text appears and is interactable
+                },
+                FloatingText = {
+                    enabled = false,             -- If true, displays floating text above the shop NPC
+                    distance = 2.5,              -- Distance within which floating text is visible and interactable
+                },
+                Target = {                       -- Uses ox_target by default --? (modifiable in config/functions.lua)
+                    enabled = true,              -- If true, enables targeting system
+                    boxZoneSize = vec3(4, 4, 4), -- Size of the target zone
+                    drawSprite = true,           -- If true, displays a sprite for the target zone
+                    distance = 2.5,              -- Interaction distance
+                },
+            },
+        },
     },
 }
