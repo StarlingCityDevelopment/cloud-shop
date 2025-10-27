@@ -750,8 +750,8 @@ return {
             PointRadius = 25.0, -- The radius within which markers, peds, and other game elements related to the shop are displayed
 
             Locations = {
-                vector4(-601.42, -412.45, 34.17, 44.34),
-                vector4(-662.2554, -933.3735, 21.8292, 183.0097),
+                vector4(-601.42, -412.45, 35.17, 44.34),
+                vector4(-662.2554, -933.3735, 22.8292, 183.0097),
             },
 
             --? For icons, use Iconify: https://icon-sets.iconify.design
@@ -1062,7 +1062,7 @@ return {
             PointRadius = 25.0, -- The radius within which markers, peds, and other game elements related to the shop are displayed
 
             Locations = {
-                vec4(74.94, -364.29, 38.38, 248.84),
+                vec4(74.94, -364.29, 39.38, 248.84),
             },
 
             --? For icons, use Iconify: https://icon-sets.iconify.design
