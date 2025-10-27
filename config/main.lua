@@ -764,40 +764,40 @@ return {
             },
 
             Items = {
-                { name = "WEAPON_COMBATPISTOL", label = "Pistolet de combat", category = "weapons", price = 0 },
-                { name = "WEAPON_KNIFE", label = "Couteau", category = "weapons", price = 0 },
-                { name = "WEAPON_NIGHTSTICK", label = "Matraque", category = "weapons", price = 0 },
-                { name = "WEAPON_STUNGUN", label = "Taser", category = "weapons", price = 0 },
-                { name = "WEAPON_FLASHLIGHT", label = "Lampe torche", category = "weapons", price = 0 },
-                { name = "WEAPON_TACTICALRIFLE", label = "Fusil tactique", category = "weapons", price = 0 },
+                { name = "WEAPON_COMBATPISTOL", label = "Pistolet de combat", category = "weapons", price = 1 },
+                { name = "WEAPON_KNIFE", label = "Couteau", category = "weapons", price = 1 },
+                { name = "WEAPON_NIGHTSTICK", label = "Matraque", category = "weapons", price = 1 },
+                { name = "WEAPON_STUNGUN", label = "Taser", category = "weapons", price = 1 },
+                { name = "WEAPON_FLASHLIGHT", label = "Lampe torche", category = "weapons", price = 1 },
+                { name = "WEAPON_TACTICALRIFLE", label = "Fusil tactique", category = "weapons", price = 1 },
 
                 -- Ammos
-                { name = "box_ammo_airsoft", label = "Boîte de billes Airsoft (250)", category = "ammos", price = 0 },
-                { name = "box_ammo_22", label = "Boîte de munitions .22 LR (120)", category = "ammos", price = 0 },
-                { name = "box_ammo_38", label = "Boîte de munitions .38 LC (60)", category = "ammos", price = 0 },
-                { name = "box_ammo_44", label = "Boîte de munitions .44 Magnum (50)", category = "ammos", price = 0 },
-                { name = "box_ammo_45", label = "Boîte de munitions .45 ACP (100)", category = "ammos", price = 0 },
-                { name = "box_ammo_50", label = "Boîte de munitions .50 AE (40)", category = "ammos", price = 0 },
-                { name = "box_ammo_9", label = "Boîte de munitions 9mm (120)", category = "ammos", price = 0 },
-                { name = "box_ammo_10", label = "Boîte de munitions 10mm (120)", category = "ammos", price = 0 },
-                { name = "box_ammo_rifle", label = "Boîte de munitions 5.56x45 (180)", category = "ammos", price = 0 },
-                { name = "box_ammo_rifle2", label = "Boîte de munitions 7.62x39 (150)", category = "ammos", price = 0 },
-                { name = "box_ammo_sniper", label = "Boîte de munitions 7.62x51 (80)", category = "ammos", price = 0 },
-                { name = "box_ammo_shotgun", label = "Boîte de cartouches 12 Gauge (50)", category = "ammos", price = 0 },
+                { name = "box_ammo_airsoft", label = "Boîte de billes Airsoft (250)", category = "ammos", price = 1 },
+                { name = "box_ammo_22", label = "Boîte de munitions .22 LR (120)", category = "ammos", price = 1 },
+                { name = "box_ammo_38", label = "Boîte de munitions .38 LC (60)", category = "ammos", price = 1 },
+                { name = "box_ammo_44", label = "Boîte de munitions .44 Magnum (50)", category = "ammos", price = 1 },
+                { name = "box_ammo_45", label = "Boîte de munitions .45 ACP (100)", category = "ammos", price = 1 },
+                { name = "box_ammo_50", label = "Boîte de munitions .50 AE (40)", category = "ammos", price = 1 },
+                { name = "box_ammo_9", label = "Boîte de munitions 9mm (120)", category = "ammos", price = 1 },
+                { name = "box_ammo_10", label = "Boîte de munitions 10mm (120)", category = "ammos", price = 1 },
+                { name = "box_ammo_rifle", label = "Boîte de munitions 5.56x45 (180)", category = "ammos", price = 1 },
+                { name = "box_ammo_rifle2", label = "Boîte de munitions 7.62x39 (150)", category = "ammos", price = 1 },
+                { name = "box_ammo_sniper", label = "Boîte de munitions 7.62x51 (80)", category = "ammos", price = 1 },
+                { name = "box_ammo_shotgun", label = "Boîte de cartouches 12 Gauge (50)", category = "ammos", price = 1 },
 
                 -- Divers
-                { name = "radio", label = "Radio", category = "divers", price = 0 },
-                { name = "handcuffs", label = "Menottes", category = "divers", price = 0 },
-                { name = "tracking_bracelet", label = "Bracelet de suivi", category = "divers", price = 0 },
-                { name = "bodycam", label = "Caméra corporelle", category = "divers", price = 0 },
-                { name = "dashcam", label = "Caméra pour véhicule", category = "divers", price = 0 },
+                { name = "radio", label = "Radio", category = "divers", price = 1 },
+                { name = "handcuffs", label = "Menottes", category = "divers", price = 1 },
+                { name = "tracking_bracelet", label = "Bracelet de suivi", category = "divers", price = 1 },
+                { name = "bodycam", label = "Caméra corporelle", category = "divers", price = 1 },
+                { name = "dashcam", label = "Caméra pour véhicule", category = "divers", price = 1 },
 
                 -- Magazines
                 {
                     name = "magazine",
                     label = "Chargeur .22 Long Rifle",
                     category = "magazines",
-                    price = 0,
+                    price = 1,
                     metadata = {
                         label = 'Chargeur .22 Long Rifle',
                         model = 'w_pi_pistolmk2_mag1',
@@ -812,7 +812,7 @@ return {
                     name = "magazine",
                     label = "Chargeur .38 LC",
                     category = "magazines",
-                    price = 0,
+                    price = 1,
                     metadata = {
                         label = 'Chargeur .38 LC',
                         model = 'w_pi_revolver_mag',
@@ -827,7 +827,7 @@ return {
                     name = "magazine",
                     label = "Chargeur .44 Magnum",
                     category = "magazines",
-                    price = 0,
+                    price = 1,
                     metadata = {
                         label = 'Chargeur .44 Magnum',
                         model = 'w_pi_revolver_mag',
@@ -842,7 +842,7 @@ return {
                     name = "magazine",
                     label = "Chargeur .45 ACP",
                     category = "magazines",
-                    price = 0,
+                    price = 1,
                     metadata = {
                         label = 'Chargeur .45 ACP',
                         model = 'w_pi_pistolmk2_mag1',
@@ -857,7 +857,7 @@ return {
                     name = "magazine",
                     label = "Chargeur .50 AE",
                     category = "magazines",
-                    price = 0,
+                    price = 1,
                     metadata = {
                         label = 'Chargeur .50 AE',
                         model = 'w_pi_heavypistol_mag',
@@ -872,7 +872,7 @@ return {
                     name = "magazine",
                     label = "Chargeur 9mm",
                     category = "magazines",
-                    price = 0,
+                    price = 1,
                     metadata = {
                         label = 'Chargeur 9mm',
                         model = 'w_pi_pistolmk2_mag1',
@@ -887,7 +887,7 @@ return {
                     name = "magazine",
                     label = "Chargeur 10mm",
                     category = "magazines",
-                    price = 0,
+                    price = 1,
                     metadata = {
                         label = 'Chargeur 10mm',
                         model = 'w_pi_pistolmk2_mag1',
@@ -902,7 +902,7 @@ return {
                     name = "magazine",
                     label = "Chargeur .50 BMG",
                     category = "magazines",
-                    price = 0,
+                    price = 1,
                     metadata = {
                         label = 'Chargeur .50 BMG',
                         model = 'w_sr_heavysniper_mag',
@@ -917,7 +917,7 @@ return {
                     name = "magazine",
                     label = "Chargeur .50 Ball",
                     category = "magazines",
-                    price = 0,
+                    price = 1,
                     metadata = {
                         label = 'Chargeur .50 Ball',
                         model = 'w_sr_musket_mag',
@@ -932,7 +932,7 @@ return {
                     name = "magazine",
                     label = "Chargeur 5.56x45",
                     category = "magazines",
-                    price = 0,
+                    price = 1,
                     metadata = {
                         label = 'Chargeur 5.56x45',
                         model = 'w_ar_rifle_mag',
@@ -947,7 +947,7 @@ return {
                     name = "magazine",
                     label = "Chargeur 7.62x39",
                     category = "magazines",
-                    price = 0,
+                    price = 1,
                     metadata = {
                         label = 'Chargeur 7.62x39',
                         model = 'w_ar_rifle_mag',
@@ -962,7 +962,7 @@ return {
                     name = "magazine",
                     label = "Chargeur 7.62x51",
                     category = "magazines",
-                    price = 0,
+                    price = 1,
                     metadata = {
                         label = 'Chargeur 7.62x51',
                         model = 'w_sr_sniper_mag',
@@ -1071,10 +1071,10 @@ return {
             },
 
             Items = {
-                { label = 'Sac médical', name = 'medbag', category = "items", price = 0 },
-                { label = 'Kit de premiers secours', name = 'medikit', category = "items", price = 0 },
-                { label = 'Morphine 30MG', name = 'morphine30', category = "items", price = 0 },
-                { label = 'Percocet 30MG', name = 'perc30', category = "items", price = 0 },
+                { label = 'Sac médical', name = 'medbag', category = "items", price = 1 },
+                { label = 'Kit de premiers secours', name = 'medikit', category = "items", price = 1 },
+                { label = 'Morphine 30MG', name = 'morphine30', category = "items", price = 1 },
+                { label = 'Percocet 30MG', name = 'perc30', category = "items", price = 1 },
             },
 
             Requirement = {
