@@ -19,10 +19,10 @@ const filteredItems = computed(() => {
 })
 
 const addToCart = (name: string, metadata?: Record<string, unknown>): void => {
-  const item = shopStore.items.find(item => item.name === name && (metadata && JSON.stringify(item.metadata) === JSON.stringify(metadata)))
+  const item = shopStore.items.find(item => item.name === name && (!metadata || JSON.stringify(item.metadata) === JSON.stringify(metadata)))
   if (!item) return
 
-  const existingIndex = shopStore.cart.findIndex(cartItem => cartItem.name === item.name && JSON.stringify(cartItem.metadata) === JSON.stringify(item.metadata))
+  const existingIndex = shopStore.cart.findIndex(cartItem => cartItem.name === item.name && (!metadata || JSON.stringify(cartItem.metadata) === JSON.stringify(item.metadata)))
 
   if (existingIndex !== -1 && shopStore.cart[existingIndex] !== undefined) {
     shopStore.cart[existingIndex].quantity += 1
