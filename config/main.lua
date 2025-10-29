@@ -55,9 +55,6 @@ return {
                 { name = "phone",           label = "Phone",             category = "electronics", price = 550 },
                 { name = "cigarette",       label = "Cigarette",         category = "divers",      price = 1 },
                 { name = "skateboard",      label = "Skateboard",        category = "divers",      price = 75 },
-                { name = "t1ger_repairkit", label = "Kit de Réparation", category = "divers",      price = 70 },
-                { name = "medikit",         label = "Kit de Soin",       category = "divers",      price = 60 },
-                { name = "defib",           label = "Défibrilateur",     category = "divers",      price = 100 },
             },
 
             Requirement = {
