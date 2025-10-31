@@ -750,7 +750,7 @@ return {
 
             Locations = {
                 vector4(-601.42, -412.45, 35.17, 44.34),
-                vector4(-662.2554, -933.3735, 22.8292, 183.0097),
+                vector4(-580.02, -723.68, 121.6, 139.09),
             },
 
             --? For icons, use Iconify: https://icon-sets.iconify.design
