@@ -55,6 +55,8 @@ return {
                 { name = "phone",           label = "Phone",             category = "electronics", price = 550 },
                 { name = "cigarette",       label = "Cigarette",         category = "divers",      price = 1 },
                 { name = "skateboard",      label = "Skateboard",        category = "divers",      price = 75 },
+                { name = "wallet",          label = "Porte monnaie",     category = "divers",      price = 50 },
+                { name = "keyring",         label = "Porte-clés",        category = "divers",      price = 5 },
             },
 
             Requirement = {
