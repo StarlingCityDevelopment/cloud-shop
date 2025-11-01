@@ -362,7 +362,10 @@ return {
                 { label = 'Papier à Rouler', name = 'paper', category = "items", price = 3 },
                 { label = 'Sac en plastique', name = 'baggie', category = "items", price = 2 },
                 { label = 'Pipe M', name = 'meth_pipe', category = "items", price = 5 },
-                { label = 'Pipe C', name = 'crack_pipe', category = "items", price = 5 },                
+                { label = 'Pipe C', name = 'crack_pipe', category = "items", price = 5 },
+                { label = 'Bouteille d'eau', name = 'water_bottle', category = "items", price = 5 },
+                { label = 'Spunk Vert', name = 'spunkgreen_drink', category = "items", price = 8 },
+                { label = 'Spunk Bleu', name = 'spunkblue_drink', category = "items", price = 8 },  
             },
 
             Requirement = {
