@@ -153,10 +153,10 @@ return {
             },
 
             Items = {
-                { label = 'Marteau', name = 'hammer', category = "outils", price = 25 },
-                { label = 'Truelle', name = 'trowel', category = "outils", price = 13 },
-                { label = 'Ciseaux', name = 'scissors', category = "outils", price = 22 },
-                { label = 'Colle', name = 'glue', category = "divers", price = 10 },
+                { label = 'Marteau', name = 'weapon_hammer', category = "outils", price = 25 },
+                { label = 'Tournevis', name = 'weapon_sd', category = "outils", price = 13 },
+                { label = 'Engrais de Qualité', name = 'advanced_fertilizer', category = "outils", price = 22 },
+                { label = 'Engrais Liquide', name = 'liquid_fertilizer', category = "divers", price = 10 },
                 { label = 'Bicarbonate de soude', name = 'baking_soda', category = "divers", price = 10 },
                 { label = 'Engrais liquide', name = 'liquid_fertilizer', category = "divers", price = 30 },
                 { label = 'Engrais', name = 'fertilizer', category = "divers", price = 25 },
@@ -261,6 +261,10 @@ return {
                 { label = 'Pseudoephedrine', name = 'pseudoephedrine', category = "items", price = 30 },
                 { label = 'Bain de Bouche', name = 'baindebouche', category = "items", price = 42 },
                 { label = 'Seringue', name = 'syringe', category = "items", price = 35 },
+                { label = 'Azote', name = 'nitrous', category = "items", price = 38 },
+                { label = 'Gobelet', name = 'cup', category = "items", price = 32 },
+                { label = 'Vinaigre Ménager', name = 'acetic_acid', category = "items", price = 7 },
+                { label = 'Acétone', name = 'acetone', category = "items", price = 7 },
             },
 
             Requirement = {
@@ -355,9 +359,10 @@ return {
             },
 
             Items = {
-                { label = 'Arrosoir', name = 'watering_can', category = "items", price = 5 },
                 { label = 'Papier à Rouler', name = 'paper', category = "items", price = 3 },
                 { label = 'Sac en plastique', name = 'baggie', category = "items", price = 2 },
+                { label = 'Pipe M', name = 'meth_pipe', category = "items", price = 5 },
+                { label = 'Pipe C', name = 'crack_pipe', category = "items", price = 5 },                
             },
 
             Requirement = {
