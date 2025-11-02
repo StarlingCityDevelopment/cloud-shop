@@ -95,8 +95,10 @@ lib.callback.register("cloud-shop:processTransaction", function(source, type, ca
 
     if not anySuccess then return false, "No items could be purchased" end
 
-    local removed = Bridge.RemoveMoney(source, accountType, totalCartPrice)
-    if not removed then return false, "Failed to remove money from account" end
+    if totalCartPrice > 0 then
+        local removed = Bridge.RemoveMoney(source, accountType, totalCartPrice)
+        if not removed then return false, "Failed to remove money from account" end
+    end
 
     Functions.Notify.Server(source, {
         title = locales.notify.payment_success.shop.title,
