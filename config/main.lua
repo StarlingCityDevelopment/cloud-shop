@@ -48,12 +48,12 @@ return {
             Items = {
                 { name = "sandwich",        label = "Sandwich",          category = "food",        price = 3 },
                 { name = "chips",           label = "Chips",             category = "food",        price = 2 },
-                { name = "candy",           label = "Bonbon",            category = "food",        price = 1 },
+                { name = "candy",           label = "Bonbon",            category = "food",        price = 0 },
                 { name = "chocolatebar",    label = "Barre Chocolatée",  category = "food",        price = 3 },
                 { name = "water_bottle",    label = 'Bouteille d\'eau',  category = "drinks",      price = 5 },
                 { name = "radio",           label = "Radio",             category = "electronics", price = 375 },
                 { name = "phone",           label = "Phone",             category = "electronics", price = 550 },
-                { name = "cigarette",       label = "Cigarette",         category = "divers",      price = 1 },
+                { name = "cigarette",       label = "Cigarette",         category = "divers",      price = 0 },
                 { name = "skateboard",      label = "Skateboard",        category = "divers",      price = 75 },
                 { name = "wallet",          label = "Porte monnaie",     category = "divers",      price = 50 },
                 { name = "keyring",         label = "Porte-clés",        category = "divers",      price = 5 },
@@ -75,7 +75,7 @@ return {
                     buyDialog = true,         -- Displays a dialog prompting the player to purchase the required license
                     label = "Weapon License", -- The display name of the required license
                     type = "weapon",          -- The type of the required license (e.g., "weapon")
-                    price = 1000,             -- The cost of the license
+                    price = 0000,             -- The cost of the license
                 },
             },
 
@@ -154,10 +154,10 @@ return {
 
             Items = {
                 { label = 'Marteau', name = 'weapon_hammer', category = "outils", price = 25 },
-                { label = 'Tournevis', name = 'weapon_sd', category = "outils", price = 13 },
+                { label = 'Tournevis', name = 'weapon_sd', category = "outils", price = 03 },
                 { label = 'Engrais de Qualité', name = 'advanced_fertilizer', category = "outils", price = 22 },
-                { label = 'Engrais Liquide', name = 'liquid_fertilizer', category = "divers", price = 10 },
-                { label = 'Bicarbonate de soude', name = 'baking_soda', category = "divers", price = 10 },
+                { label = 'Engrais Liquide', name = 'liquid_fertilizer', category = "divers", price = 00 },
+                { label = 'Bicarbonate de soude', name = 'baking_soda', category = "divers", price = 00 },
                 { label = 'Engrais liquide', name = 'liquid_fertilizer', category = "divers", price = 30 },
                 { label = 'Engrais', name = 'fertilizer', category = "divers", price = 25 },
                 { label = 'Engrais avancé', name = 'advanced_fertilizer', category = "divers", price = 40 },
@@ -179,7 +179,7 @@ return {
                     buyDialog = true,         -- Displays a dialog prompting the player to purchase the required license
                     label = "Weapon License", -- The display name of the required license
                     type = "weapon",          -- The type of the required license (e.g., "weapon")
-                    price = 1000,             -- The cost of the license
+                    price = 0000,             -- The cost of the license
                 },
             },
 
@@ -256,8 +256,8 @@ return {
 
             Items = {
                 { label = 'Bicarbonate de Soude', name = 'bicarbonate', category = "items", price = 5 },
-                { label = 'Sirop à la Codéine', name = 'sirop_codeine', category = "items", price = 10 },
-                { label = 'Chloroforme', name = 'chloroforme', category = "items", price = 10 },
+                { label = 'Sirop à la Codéine', name = 'sirop_codeine', category = "items", price = 00 },
+                { label = 'Chloroforme', name = 'chloroforme', category = "items", price = 00 },
                 { label = 'Pseudoephedrine', name = 'pseudoephedrine', category = "items", price = 30 },
                 { label = 'Bain de Bouche', name = 'baindebouche', category = "items", price = 42 },
                 { label = 'Seringue', name = 'syringe', category = "items", price = 35 },
@@ -283,7 +283,7 @@ return {
                     buyDialog = true,         -- Displays a dialog prompting the player to purchase the required license
                     label = "Weapon License", -- The display name of the required license
                     type = "weapon",          -- The type of the required license (e.g., "weapon")
-                    price = 1000,             -- The cost of the license
+                    price = 0000,             -- The cost of the license
                 },
             },
 
@@ -365,7 +365,7 @@ return {
                 { label = 'Pipe C', name = 'crack_pipe', category = "items", price = 5 },
                 { label = 'Bouteille d\'eau', name = 'water_bottle', category = "items", price = 5 },
                 { label = 'Spunk Vert', name = 'spunkgreen_drink', category = "items", price = 8 },
-                { label = 'Spunk Bleu', name = 'spunkblue_drink', category = "items", price = 8 },  
+                { label = 'Spunk Bleu', name = 'spunkblue_drink', category = "items", price = 8 },
             },
 
             Requirement = {
@@ -384,7 +384,7 @@ return {
                     buyDialog = true,         -- Displays a dialog prompting the player to purchase the required license
                     label = "Weapon License", -- The display name of the required license
                     type = "weapon",          -- The type of the required license (e.g., "weapon")
-                    price = 1000,             -- The cost of the license
+                    price = 0000,             -- The cost of the license
                 },
             },
 
@@ -464,7 +464,7 @@ return {
             Categories = {
                 { name = "Tous les produits", type = "all", icon = "ic:round-clear-all" },
                 { name = "Armes", type = "weapons", icon = "mdi:pistol" },
-                { name = "Chargeurs", type = "magazines", icon = "game-icons:machine-gun-magazine" },
+                -- { name = "Chargeurs", type = "magazines", icon = "game-icons:machine-gun-magazine" },
                 { name = "Munitions", type = "ammos", icon = "game-icons:silver-bullet" },
             },
 
@@ -477,7 +477,7 @@ return {
                 { name = "WEAPON_FLASHLIGHT", label = "Lampe torche", category = "weapons", price = 300 },
 
                 -- Ammos
-                { name = "box_ammo_airsoft", label = "Boîte de billes Airsoft (250)", category = "ammos", price = 100 },
+                { name = "box_ammo_airsoft", label = "Boîte de billes Airsoft (250)", category = "ammos", price = 000 },
                 { name = "box_ammo_22", label = "Boîte de munitions .22 LR (120)", category = "ammos", price = 250 },
                 { name = "box_ammo_38", label = "Boîte de munitions .38 LC (60)", category = "ammos", price = 400 },
                 { name = "box_ammo_44", label = "Boîte de munitions .44 Magnum (50)", category = "ammos", price = 500 },
@@ -492,186 +492,186 @@ return {
 
 
                 -- Magazines
-                {
-                    name = "magazine",
-                    label = "Chargeur .22 Long Rifle",
-                    category = "magazines",
-                    price = 80,
-                    metadata = {
-                        label = 'Chargeur .22 Long Rifle',
-                        model = 'w_pi_pistolmk2_mag1',
-                        magType = 'magazine-22',
-                        ammoType = 'ammo-22',
-                        magSize = 15,
-                        ammo = 0,
-                        image = 'at_clip',
-                    }
-                },
-                {
-                    name = "magazine",
-                    label = "Chargeur .38 LC",
-                    category = "magazines",
-                    price = 150,
-                    metadata = {
-                        label = 'Chargeur .38 LC',
-                        model = 'w_pi_revolver_mag',
-                        magType = 'magazine-38',
-                        ammoType = 'ammo-38',
-                        magSize = 8,
-                        ammo = 0,
-                        image = 'at_clip',
-                    }
-                },
-                {
-                    name = "magazine",
-                    label = "Chargeur .44 Magnum",
-                    category = "magazines",
-                    price = 200,
-                    metadata = {
-                        label = 'Chargeur .44 Magnum',
-                        model = 'w_pi_revolver_mag',
-                        magType = 'magazine-44',
-                        ammoType = 'ammo-44',
-                        magSize = 6,
-                        ammo = 0,
-                        image = 'at_clip',
-                    }
-                },
-                {
-                    name = "magazine",
-                    label = "Chargeur .45 ACP",
-                    category = "magazines",
-                    price = 180,
-                    metadata = {
-                        label = 'Chargeur .45 ACP',
-                        model = 'w_pi_pistolmk2_mag1',
-                        magType = 'magazine-45',
-                        ammoType = 'ammo-45',
-                        magSize = 10,
-                        ammo = 0,
-                        image = 'at_clip',
-                    }
-                },
-                {
-                    name = "magazine",
-                    label = "Chargeur .50 AE",
-                    category = "magazines",
-                    price = 300,
-                    metadata = {
-                        label = 'Chargeur .50 AE',
-                        model = 'w_pi_heavypistol_mag',
-                        magType = 'magazine-50',
-                        ammoType = 'ammo-50',
-                        magSize = 7,
-                        ammo = 0,
-                        image = 'at_clip',
-                    }
-                },
-                {
-                    name = "magazine",
-                    label = "Chargeur 9mm",
-                    category = "magazines",
-                    price = 300,
-                    metadata = {
-                        label = 'Chargeur 9mm',
-                        model = 'w_pi_pistolmk2_mag1',
-                        magType = 'magazine-9',
-                        ammoType = 'ammo-9',
-                        magSize = 12,
-                        ammo = 0,
-                        image = 'at_clip',
-                    }
-                },
-                {
-                    name = "magazine",
-                    label = "Chargeur 10mm",
-                    category = "magazines",
-                    price = 320,
-                    metadata = {
-                        label = 'Chargeur 10mm',
-                        model = 'w_pi_pistolmk2_mag1',
-                        magType = 'magazine-10',
-                        ammoType = 'ammo-10',
-                        magSize = 11,
-                        ammo = 0,
-                        image = 'at_clip',
-                    }
-                },
-                {
-                    name = "magazine",
-                    label = "Chargeur .50 BMG",
-                    category = "magazines",
-                    price = 800,
-                    metadata = {
-                        label = 'Chargeur .50 BMG',
-                        model = 'w_sr_heavysniper_mag',
-                        magType = 'magazine-heavysniper',
-                        ammoType = 'ammo-heavysniper',
-                        magSize = 5,
-                        ammo = 0,
-                        image = 'at_clip',
-                    }
-                },
-                {
-                    name = "magazine",
-                    label = "Chargeur .50 Ball",
-                    category = "magazines",
-                    price = 400,
-                    metadata = {
-                        label = 'Chargeur .50 Ball',
-                        model = 'w_sr_musket_mag',
-                        magType = 'magazine-musket',
-                        ammoType = 'ammo-musket',
-                        magSize = 1,
-                        ammo = 0,
-                        image = 'at_clip',
-                    }
-                },
-                {
-                    name = "magazine",
-                    label = "Chargeur 5.56x45",
-                    category = "magazines",
-                    price = 400,
-                    metadata = {
-                        label = 'Chargeur 5.56x45',
-                        model = 'w_ar_rifle_mag',
-                        magType = 'magazine-rifle',
-                        ammoType = 'ammo-rifle',
-                        magSize = 30,
-                        ammo = 0,
-                        image = 'at_clip',
-                    }
-                },
-                {
-                    name = "magazine",
-                    label = "Chargeur 7.62x39",
-                    category = "magazines",
-                    price = 450,
-                    metadata = {
-                        label = 'Chargeur 7.62x39',
-                        model = 'w_ar_rifle_mag',
-                        magType = 'magazine-rifle2',
-                        ammoType = 'ammo-rifle2',
-                        magSize = 30,
-                        ammo = 0,
-                        image = 'at_clip',
-                    }
-                },
-                {
-                    name = "magazine",
-                    label = "Chargeur 7.62x51",
-                    category = "magazines",
-                    price = 600,
-                    metadata = {
-                        label = 'Chargeur 7.62x51',
-                        model = 'w_sr_sniper_mag',
-                        magType = 'magazine-sniper',
-                        ammoType = 'ammo-sniper',
-                        magSize = 5,
-                        ammo = 0,
-                        image = 'at_clip',
-                    }
-                },
+                -- {
+                --     name = "magazine",
+                --     label = "Chargeur .22 Long Rifle",
+                --     category = "magazines",
+                --     price = 80,
+                --     metadata = {
+                --         label = 'Chargeur .22 Long Rifle',
+                --         model = 'w_pi_pistolmk2_mag1',
+                --         magType = 'magazine-22',
+                --         ammoType = 'ammo-22',
+                --         magSize = 15,
+                --         ammo = 0,
+                --         image = 'at_clip',
+                --     }
+                -- },
+                -- {
+                --     name = "magazine",
+                --     label = "Chargeur .38 LC",
+                --     category = "magazines",
+                --     price = 050,
+                --     metadata = {
+                --         label = 'Chargeur .38 LC',
+                --         model = 'w_pi_revolver_mag',
+                --         magType = 'magazine-38',
+                --         ammoType = 'ammo-38',
+                --         magSize = 8,
+                --         ammo = 0,
+                --         image = 'at_clip',
+                --     }
+                -- },
+                -- {
+                --     name = "magazine",
+                --     label = "Chargeur .44 Magnum",
+                --     category = "magazines",
+                --     price = 200,
+                --     metadata = {
+                --         label = 'Chargeur .44 Magnum',
+                --         model = 'w_pi_revolver_mag',
+                --         magType = 'magazine-44',
+                --         ammoType = 'ammo-44',
+                --         magSize = 6,
+                --         ammo = 0,
+                --         image = 'at_clip',
+                --     }
+                -- },
+                -- {
+                --     name = "magazine",
+                --     label = "Chargeur .45 ACP",
+                --     category = "magazines",
+                --     price = 080,
+                --     metadata = {
+                --         label = 'Chargeur .45 ACP',
+                --         model = 'w_pi_pistolmk2_mag1',
+                --         magType = 'magazine-45',
+                --         ammoType = 'ammo-45',
+                --         magSize = 10,
+                --         ammo = 0,
+                --         image = 'at_clip',
+                --     }
+                -- },
+                -- {
+                --     name = "magazine",
+                --     label = "Chargeur .50 AE",
+                --     category = "magazines",
+                --     price = 300,
+                --     metadata = {
+                --         label = 'Chargeur .50 AE',
+                --         model = 'w_pi_heavypistol_mag',
+                --         magType = 'magazine-50',
+                --         ammoType = 'ammo-50',
+                --         magSize = 7,
+                --         ammo = 0,
+                --         image = 'at_clip',
+                --     }
+                -- },
+                -- {
+                --     name = "magazine",
+                --     label = "Chargeur 9mm",
+                --     category = "magazines",
+                --     price = 300,
+                --     metadata = {
+                --         label = 'Chargeur 9mm',
+                --         model = 'w_pi_pistolmk2_mag1',
+                --         magType = 'magazine-9',
+                --         ammoType = 'ammo-9',
+                --         magSize = 12,
+                --         ammo = 0,
+                --         image = 'at_clip',
+                --     }
+                -- },
+                -- {
+                --     name = "magazine",
+                --     label = "Chargeur 10mm",
+                --     category = "magazines",
+                --     price = 320,
+                --     metadata = {
+                --         label = 'Chargeur 10mm',
+                --         model = 'w_pi_pistolmk2_mag1',
+                --         magType = 'magazine-10',
+                --         ammoType = 'ammo-10',
+                --         magSize = 11,
+                --         ammo = 0,
+                --         image = 'at_clip',
+                --     }
+                -- },
+                -- {
+                --     name = "magazine",
+                --     label = "Chargeur .50 BMG",
+                --     category = "magazines",
+                --     price = 800,
+                --     metadata = {
+                --         label = 'Chargeur .50 BMG',
+                --         model = 'w_sr_heavysniper_mag',
+                --         magType = 'magazine-heavysniper',
+                --         ammoType = 'ammo-heavysniper',
+                --         magSize = 5,
+                --         ammo = 0,
+                --         image = 'at_clip',
+                --     }
+                -- },
+                -- {
+                --     name = "magazine",
+                --     label = "Chargeur .50 Ball",
+                --     category = "magazines",
+                --     price = 400,
+                --     metadata = {
+                --         label = 'Chargeur .50 Ball',
+                --         model = 'w_sr_musket_mag',
+                --         magType = 'magazine-musket',
+                --         ammoType = 'ammo-musket',
+                --         magSize = 1,
+                --         ammo = 0,
+                --         image = 'at_clip',
+                --     }
+                -- },
+                -- {
+                --     name = "magazine",
+                --     label = "Chargeur 5.56x45",
+                --     category = "magazines",
+                --     price = 400,
+                --     metadata = {
+                --         label = 'Chargeur 5.56x45',
+                --         model = 'w_ar_rifle_mag',
+                --         magType = 'magazine-rifle',
+                --         ammoType = 'ammo-rifle',
+                --         magSize = 30,
+                --         ammo = 0,
+                --         image = 'at_clip',
+                --     }
+                -- },
+                -- {
+                --     name = "magazine",
+                --     label = "Chargeur 7.62x39",
+                --     category = "magazines",
+                --     price = 450,
+                --     metadata = {
+                --         label = 'Chargeur 7.62x39',
+                --         model = 'w_ar_rifle_mag',
+                --         magType = 'magazine-rifle2',
+                --         ammoType = 'ammo-rifle2',
+                --         magSize = 30,
+                --         ammo = 0,
+                --         image = 'at_clip',
+                --     }
+                -- },
+                -- {
+                --     name = "magazine",
+                --     label = "Chargeur 7.62x51",
+                --     category = "magazines",
+                --     price = 600,
+                --     metadata = {
+                --         label = 'Chargeur 7.62x51',
+                --         model = 'w_sr_sniper_mag',
+                --         magType = 'magazine-sniper',
+                --         ammoType = 'ammo-sniper',
+                --         magSize = 5,
+                --         ammo = 0,
+                --         image = 'at_clip',
+                --     }
+                -- },
             },
 
             Requirement = {
@@ -690,7 +690,7 @@ return {
                     buyDialog = true,         -- Displays a dialog prompting the player to purchase the required license
                     label = "Weapon License", -- The display name of the required license
                     type = "weapon",          -- The type of the required license (e.g., "weapon")
-                    price = 1000,             -- The cost of the license
+                    price = 0000,             -- The cost of the license
                 },
             },
 
@@ -765,237 +765,275 @@ return {
             Categories = {
                 { name = "Tous les produits", type = "all", icon = "ic:round-clear-all" },
                 { name = "Armes", type = "weapons", icon = "mdi:pistol" },
-                { name = "Chargeurs", type = "magazines", icon = "game-icons:machine-gun-magazine" },
+                -- { name = "Chargeurs", type = "magazines", icon = "game-icons:machine-gun-magazine" },
                 { name = "Munitions", type = "ammos", icon = "game-icons:silver-bullet" },
                 { name = "Divers", type = "divers", icon = "ion:hammer" },
             },
 
             Items = {
-                { name = "WEAPON_COMBATPISTOL", label = "Pistolet de combat", category = "weapons", price = 1 },
-                { name = "WEAPON_KNIFE", label = "Couteau", category = "weapons", price = 1 },
-                { name = "WEAPON_NIGHTSTICK", label = "Matraque", category = "weapons", price = 1 },
-                { name = "WEAPON_STUNGUN", label = "Taser", category = "weapons", price = 1 },
-                { name = "WEAPON_FLASHLIGHT", label = "Lampe torche", category = "weapons", price = 1 },
-                { name = "WEAPON_TACTICALRIFLE", label = "Fusil tactique", category = "weapons", price = 1 },
-                { name = "WEAPON_FN57", label = "FN57", category = "weapons", price = 1 },
-                { name = "WEAPON_P30L", label = "P30L", category = "weapons", price = 1 },
-                { name = "WEAPON_BRYSON", label = "Bryson 890", category = "weapons", price = 1 },
-                { name = "WEAPON_AR15", label = "AR15", category = "weapons", price = 1 },
-                { name = "WEAPON_BSCAR", label = "Black Scar", category = "weapons", price = 1 },
-                { name = "WEAPON_XM4", label = "Colt XM4", category = "weapons", price = 1 },
-                { name = "WEAPON_LVOCA", label = "lvoa-c", category = "weapons", price = 1 },
-                { name = "WEAPON_G36K", label = "G36K", category = "weapons", price = 1 },
-                { name = "WEAPON_MP5", label = "MP5", category = "weapons", price = 1 },
-                { name = "WEAPON_G17", label = "G17", category = "weapons", price = 1 },
-                { name = "WEAPON_BARRETT", label = "Barrett 50", category = "weapons", price = 1 },
-                { name = "WEAPON_M870", label = "Remington M870", category = "weapons", price = 1 },
-                { name = "WEAPON_MPX", label = "MPX", category = "weapons", price = 1 },
-                { name = "WEAPON_M16", label = "M16", category = "weapons", price = 1 },
-                { name = "WEAPON_GLOCK22", label = "Glock 22", category = "weapons", price = 1 },
-                { name = "WEAPON_MINISHOTGUN", label = "Shortgun", category = "weapons", price = 1 },
+                -- Weapons
+                -- Duty / Utility
+                { name = "WEAPON_FLASHLIGHT", label = "Lampe torche", category = "weapons", price = 0 },
+                { name = "WEAPON_PDBATON", label = "Matraque", category = "weapons", price = 0 },
+
+                -- Blade / close combat
+                { name = "WEAPON_KNIFE", label = "Couteau", category = "weapons", price = 0 },
+
+                -- Tasers
+                { name = "WEAPON_BTASER", label = "Taser Noir", category = "weapons", price = 0 },
+                { name = "WEAPON_YTASER", label = "Taser Jaune", category = "weapons", price = 0 },
+
+                -- Service pistols / handguns
+                { name = "WEAPON_G17", label = "G17", category = "weapons", price = 0 },
+                { name = "WEAPON_GLOCK22", label = "Glock 22", category = "weapons", price = 0 },
+                { name = "WEAPON_COMBATPISTOL", label = "Pistolet de combat", category = "weapons", price = 0 },
+                { name = "WEAPON_FN57", label = "FN57", category = "weapons", price = 0 },
+                { name = "WEAPON_P30L", label = "P30L", category = "weapons", price = 0 },
+                { name = "WEAPON_PDT19", label = "Titan 19", category = "weapons", price = 0 },
+                { name = "WEAPON_PDT22", label = "Titan 22", category = "weapons", price = 0 },
+                { name = "WEAPON_PDMKUSP", label = "MK USP", category = "weapons", price = 0 },
+
+                -- Submachine guns / PD SMGs
+                { name = "WEAPON_MP5", label = "MP5", category = "weapons", price = 0 },
+                { name = "WEAPON_MPX", label = "MPX", category = "weapons", price = 0 },
+
+                -- Compact / short-barrel shotguns
+                { name = "WEAPON_MINISHOTGUN", label = "Shortgun", category = "weapons", price = 0 },
+                { name = "WEAPON_BRYSON", label = "Bryson 890", category = "weapons", price = 0 },
+
+                -- Patrol / duty shotguns
+                { name = "WEAPON_M870", label = "Remington M870", category = "weapons", price = 0 },
+                { name = "WEAPON_PDPT870", label = "Patrol 870", category = "weapons", price = 0 },
+                { name = "WEAPON_PDPT700", label = "Patrol M700", category = "weapons", price = 0 },
+                { name = "WEAPON_PDBR5", label = "Breach M5", category = "weapons", price = 0 },
+
+                -- Carbines / assault rifles
+                { name = "WEAPON_AR15", label = "AR15", category = "weapons", price = 0 },
+                { name = "WEAPON_XM4", label = "Colt XM4", category = "weapons", price = 0 },
+                { name = "WEAPON_M16", label = "M16", category = "weapons", price = 0 },
+                { name = "WEAPON_G36K", label = "G36K", category = "weapons", price = 0 },
+                { name = "WEAPON_LVOCA", label = "LVOA-C", category = "weapons", price = 0 },
+                { name = "WEAPON_BSCAR", label = "Black Scar", category = "weapons", price = 0 },
+                { name = "WEAPON_TACTICALRIFLE", label = "Fusil tactique", category = "weapons", price = 0 },
+
+                -- Designated marksman / precision
+                { name = "WEAPON_MK417", label = "MK417", category = "weapons", price = 0 },
+                { name = "WEAPON_PDMK33", label = "MK433", category = "weapons", price = 0 },
+                { name = "WEAPON_PDMK45", label = "MK45", category = "weapons", price = 0 },
+
+                -- Heavy / sniper
+                { name = "WEAPON_BARRETT", label = "Barrett 50", category = "weapons", price = 0 },
+
+                -- Specialized duty rifles
+                { name = "WEAPON_PDDT607", label = "Duty M607", category = "weapons", price = 0 },
+                { name = "WEAPON_PDDT7", label = "Duty C7", category = "weapons", price = 0 },
+
+                -- Misc / legacy
+                { name = "WEAPON_PDBR5", label = "Breach M5", category = "weapons", price = 0 }, -- kept for breaching roles
+                { name = "WEAPON_PDFC66", label = "Force P66", category = "weapons", price = 0 },
 
                 -- Ammos
-                { name = "box_ammo_airsoft", label = "Boîte de billes Airsoft (250)", category = "ammos", price = 1 },
-                { name = "box_ammo_22", label = "Boîte de munitions .22 LR (120)", category = "ammos", price = 1 },
-                { name = "box_ammo_38", label = "Boîte de munitions .38 LC (60)", category = "ammos", price = 1 },
-                { name = "box_ammo_44", label = "Boîte de munitions .44 Magnum (50)", category = "ammos", price = 1 },
-                { name = "box_ammo_45", label = "Boîte de munitions .45 ACP (100)", category = "ammos", price = 1 },
-                { name = "box_ammo_50", label = "Boîte de munitions .50 AE (40)", category = "ammos", price = 1 },
-                { name = "box_ammo_9", label = "Boîte de munitions 9mm (120)", category = "ammos", price = 1 },
-                { name = "box_ammo_10", label = "Boîte de munitions 10mm (120)", category = "ammos", price = 1 },
-                { name = "box_ammo_rifle", label = "Boîte de munitions 5.56x45 (180)", category = "ammos", price = 1 },
-                { name = "box_ammo_rifle2", label = "Boîte de munitions 7.62x39 (150)", category = "ammos", price = 1 },
-                { name = "box_ammo_sniper", label = "Boîte de munitions 7.62x51 (80)", category = "ammos", price = 1 },
-                { name = "box_ammo_shotgun", label = "Boîte de cartouches 12 Gauge (50)", category = "ammos", price = 1 },
+                { name = "box_ammo_airsoft", label = "Boîte de billes Airsoft (250)", category = "ammos", price = 0 },
+                { name = "box_ammo_22", label = "Boîte de munitions .22 LR (120)", category = "ammos", price = 0 },
+                { name = "box_ammo_38", label = "Boîte de munitions .38 LC (60)", category = "ammos", price = 0 },
+                { name = "box_ammo_44", label = "Boîte de munitions .44 Magnum (50)", category = "ammos", price = 0 },
+                { name = "box_ammo_45", label = "Boîte de munitions .45 ACP (100)", category = "ammos", price = 0 },
+                { name = "box_ammo_50", label = "Boîte de munitions .50 AE (40)", category = "ammos", price = 0 },
+                { name = "box_ammo_9", label = "Boîte de munitions 9mm (120)", category = "ammos", price = 0 },
+                { name = "box_ammo_10", label = "Boîte de munitions 10mm (120)", category = "ammos", price = 0 },
+                { name = "box_ammo_rifle", label = "Boîte de munitions 5.56x45 (180)", category = "ammos", price = 0 },
+                { name = "box_ammo_rifle2", label = "Boîte de munitions 7.62x39 (150)", category = "ammos", price = 0 },
+                { name = "box_ammo_sniper", label = "Boîte de munitions 7.62x51 (80)", category = "ammos", price = 0 },
+                { name = "box_ammo_shotgun", label = "Boîte de cartouches 12 Gauge (50)", category = "ammos", price = 0 },
 
                 -- Divers
-                { name = "radio", label = "Radio", category = "divers", price = 1 },
-                { name = "handcuffs", label = "Menottes", category = "divers", price = 1 },
-                { name = "tracking_bracelet", label = "Bracelet de suivi", category = "divers", price = 1 },
-                { name = "bodycam", label = "Caméra corporelle", category = "divers", price = 1 },
-                { name = "dashcam", label = "Caméra pour véhicule", category = "divers", price = 1 },
+                { name = "radio", label = "Radio", category = "divers", price = 0 },
+                { name = "handcuffs", label = "Menottes", category = "divers", price = 0 },
+                { name = "tracking_bracelet", label = "Bracelet de suivi", category = "divers", price = 0 },
+                { name = "bodycam", label = "Caméra corporelle", category = "divers", price = 0 },
+                { name = "dashcam", label = "Caméra pour véhicule", category = "divers", price = 0 },
 
                 -- Magazines
-                {
-                    name = "magazine",
-                    label = "Chargeur .22 Long Rifle",
-                    category = "magazines",
-                    price = 1,
-                    metadata = {
-                        label = 'Chargeur .22 Long Rifle',
-                        model = 'w_pi_pistolmk2_mag1',
-                        magType = 'magazine-22',
-                        ammoType = 'ammo-22',
-                        magSize = 15,
-                        ammo = 0,
-                        image = 'at_clip',
-                    }
-                },
-                {
-                    name = "magazine",
-                    label = "Chargeur .38 LC",
-                    category = "magazines",
-                    price = 1,
-                    metadata = {
-                        label = 'Chargeur .38 LC',
-                        model = 'w_pi_revolver_mag',
-                        magType = 'magazine-38',
-                        ammoType = 'ammo-38',
-                        magSize = 8,
-                        ammo = 0,
-                        image = 'at_clip',
-                    }
-                },
-                {
-                    name = "magazine",
-                    label = "Chargeur .44 Magnum",
-                    category = "magazines",
-                    price = 1,
-                    metadata = {
-                        label = 'Chargeur .44 Magnum',
-                        model = 'w_pi_revolver_mag',
-                        magType = 'magazine-44',
-                        ammoType = 'ammo-44',
-                        magSize = 6,
-                        ammo = 0,
-                        image = 'at_clip',
-                    }
-                },
-                {
-                    name = "magazine",
-                    label = "Chargeur .45 ACP",
-                    category = "magazines",
-                    price = 1,
-                    metadata = {
-                        label = 'Chargeur .45 ACP',
-                        model = 'w_pi_pistolmk2_mag1',
-                        magType = 'magazine-45',
-                        ammoType = 'ammo-45',
-                        magSize = 10,
-                        ammo = 0,
-                        image = 'at_clip',
-                    }
-                },
-                {
-                    name = "magazine",
-                    label = "Chargeur .50 AE",
-                    category = "magazines",
-                    price = 1,
-                    metadata = {
-                        label = 'Chargeur .50 AE',
-                        model = 'w_pi_heavypistol_mag',
-                        magType = 'magazine-50',
-                        ammoType = 'ammo-50',
-                        magSize = 7,
-                        ammo = 0,
-                        image = 'at_clip',
-                    }
-                },
-                {
-                    name = "magazine",
-                    label = "Chargeur 9mm",
-                    category = "magazines",
-                    price = 1,
-                    metadata = {
-                        label = 'Chargeur 9mm',
-                        model = 'w_pi_pistolmk2_mag1',
-                        magType = 'magazine-9',
-                        ammoType = 'ammo-9',
-                        magSize = 12,
-                        ammo = 0,
-                        image = 'at_clip',
-                    }
-                },
-                {
-                    name = "magazine",
-                    label = "Chargeur 10mm",
-                    category = "magazines",
-                    price = 1,
-                    metadata = {
-                        label = 'Chargeur 10mm',
-                        model = 'w_pi_pistolmk2_mag1',
-                        magType = 'magazine-10',
-                        ammoType = 'ammo-10',
-                        magSize = 11,
-                        ammo = 0,
-                        image = 'at_clip',
-                    }
-                },
-                {
-                    name = "magazine",
-                    label = "Chargeur .50 BMG",
-                    category = "magazines",
-                    price = 1,
-                    metadata = {
-                        label = 'Chargeur .50 BMG',
-                        model = 'w_sr_heavysniper_mag',
-                        magType = 'magazine-heavysniper',
-                        ammoType = 'ammo-heavysniper',
-                        magSize = 5,
-                        ammo = 0,
-                        image = 'at_clip',
-                    }
-                },
-                {
-                    name = "magazine",
-                    label = "Chargeur .50 Ball",
-                    category = "magazines",
-                    price = 1,
-                    metadata = {
-                        label = 'Chargeur .50 Ball',
-                        model = 'w_sr_musket_mag',
-                        magType = 'magazine-musket',
-                        ammoType = 'ammo-musket',
-                        magSize = 1,
-                        ammo = 0,
-                        image = 'at_clip',
-                    }
-                },
-                {
-                    name = "magazine",
-                    label = "Chargeur 5.56x45",
-                    category = "magazines",
-                    price = 1,
-                    metadata = {
-                        label = 'Chargeur 5.56x45',
-                        model = 'w_ar_rifle_mag',
-                        magType = 'magazine-rifle',
-                        ammoType = 'ammo-rifle',
-                        magSize = 30,
-                        ammo = 0,
-                        image = 'at_clip',
-                    }
-                },
-                {
-                    name = "magazine",
-                    label = "Chargeur 7.62x39",
-                    category = "magazines",
-                    price = 1,
-                    metadata = {
-                        label = 'Chargeur 7.62x39',
-                        model = 'w_ar_rifle_mag',
-                        magType = 'magazine-rifle2',
-                        ammoType = 'ammo-rifle2',
-                        magSize = 30,
-                        ammo = 0,
-                        image = 'at_clip',
-                    }
-                },
-                {
-                    name = "magazine",
-                    label = "Chargeur 7.62x51",
-                    category = "magazines",
-                    price = 1,
-                    metadata = {
-                        label = 'Chargeur 7.62x51',
-                        model = 'w_sr_sniper_mag',
-                        magType = 'magazine-sniper',
-                        ammoType = 'ammo-sniper',
-                        magSize = 5,
-                        ammo = 0,
-                        image = 'at_clip',
-                    }
-                },
+                -- {
+                --     name = "magazine",
+                --     label = "Chargeur .22 Long Rifle",
+                --     category = "magazines",
+                --     price = 0,
+                --     metadata = {
+                --         label = 'Chargeur .22 Long Rifle',
+                --         model = 'w_pi_pistolmk2_mag1',
+                --         magType = 'magazine-22',
+                --         ammoType = 'ammo-22',
+                --         magSize = 15,
+                --         ammo = 0,
+                --         image = 'at_clip',
+                --     }
+                -- },
+                -- {
+                --     name = "magazine",
+                --     label = "Chargeur .38 LC",
+                --     category = "magazines",
+                --     price = 0,
+                --     metadata = {
+                --         label = 'Chargeur .38 LC',
+                --         model = 'w_pi_revolver_mag',
+                --         magType = 'magazine-38',
+                --         ammoType = 'ammo-38',
+                --         magSize = 8,
+                --         ammo = 0,
+                --         image = 'at_clip',
+                --     }
+                -- },
+                -- {
+                --     name = "magazine",
+                --     label = "Chargeur .44 Magnum",
+                --     category = "magazines",
+                --     price = 0,
+                --     metadata = {
+                --         label = 'Chargeur .44 Magnum',
+                --         model = 'w_pi_revolver_mag',
+                --         magType = 'magazine-44',
+                --         ammoType = 'ammo-44',
+                --         magSize = 6,
+                --         ammo = 0,
+                --         image = 'at_clip',
+                --     }
+                -- },
+                -- {
+                --     name = "magazine",
+                --     label = "Chargeur .45 ACP",
+                --     category = "magazines",
+                --     price = 0,
+                --     metadata = {
+                --         label = 'Chargeur .45 ACP',
+                --         model = 'w_pi_pistolmk2_mag1',
+                --         magType = 'magazine-45',
+                --         ammoType = 'ammo-45',
+                --         magSize = 10,
+                --         ammo = 0,
+                --         image = 'at_clip',
+                --     }
+                -- },
+                -- {
+                --     name = "magazine",
+                --     label = "Chargeur .50 AE",
+                --     category = "magazines",
+                --     price = 0,
+                --     metadata = {
+                --         label = 'Chargeur .50 AE',
+                --         model = 'w_pi_heavypistol_mag',
+                --         magType = 'magazine-50',
+                --         ammoType = 'ammo-50',
+                --         magSize = 7,
+                --         ammo = 0,
+                --         image = 'at_clip',
+                --     }
+                -- },
+                -- {
+                --     name = "magazine",
+                --     label = "Chargeur 9mm",
+                --     category = "magazines",
+                --     price = 0,
+                --     metadata = {
+                --         label = 'Chargeur 9mm',
+                --         model = 'w_pi_pistolmk2_mag1',
+                --         magType = 'magazine-9',
+                --         ammoType = 'ammo-9',
+                --         magSize = 12,
+                --         ammo = 0,
+                --         image = 'at_clip',
+                --     }
+                -- },
+                -- {
+                --     name = "magazine",
+                --     label = "Chargeur 10mm",
+                --     category = "magazines",
+                --     price = 0,
+                --     metadata = {
+                --         label = 'Chargeur 10mm',
+                --         model = 'w_pi_pistolmk2_mag1',
+                --         magType = 'magazine-10',
+                --         ammoType = 'ammo-10',
+                --         magSize = 11,
+                --         ammo = 0,
+                --         image = 'at_clip',
+                --     }
+                -- },
+                -- {
+                --     name = "magazine",
+                --     label = "Chargeur .50 BMG",
+                --     category = "magazines",
+                --     price = 0,
+                --     metadata = {
+                --         label = 'Chargeur .50 BMG',
+                --         model = 'w_sr_heavysniper_mag',
+                --         magType = 'magazine-heavysniper',
+                --         ammoType = 'ammo-heavysniper',
+                --         magSize = 5,
+                --         ammo = 0,
+                --         image = 'at_clip',
+                --     }
+                -- },
+                -- {
+                --     name = "magazine",
+                --     label = "Chargeur .50 Ball",
+                --     category = "magazines",
+                --     price = 0,
+                --     metadata = {
+                --         label = 'Chargeur .50 Ball',
+                --         model = 'w_sr_musket_mag',
+                --         magType = 'magazine-musket',
+                --         ammoType = 'ammo-musket',
+                --         magSize = 1,
+                --         ammo = 0,
+                --         image = 'at_clip',
+                --     }
+                -- },
+                -- {
+                --     name = "magazine",
+                --     label = "Chargeur 5.56x45",
+                --     category = "magazines",
+                --     price = 0,
+                --     metadata = {
+                --         label = 'Chargeur 5.56x45',
+                --         model = 'w_ar_rifle_mag',
+                --         magType = 'magazine-rifle',
+                --         ammoType = 'ammo-rifle',
+                --         magSize = 30,
+                --         ammo = 0,
+                --         image = 'at_clip',
+                --     }
+                -- },
+                -- {
+                --     name = "magazine",
+                --     label = "Chargeur 7.62x39",
+                --     category = "magazines",
+                --     price = 0,
+                --     metadata = {
+                --         label = 'Chargeur 7.62x39',
+                --         model = 'w_ar_rifle_mag',
+                --         magType = 'magazine-rifle2',
+                --         ammoType = 'ammo-rifle2',
+                --         magSize = 30,
+                --         ammo = 0,
+                --         image = 'at_clip',
+                --     }
+                -- },
+                -- {
+                --     name = "magazine",
+                --     label = "Chargeur 7.62x51",
+                --     category = "magazines",
+                --     price = 0,
+                --     metadata = {
+                --         label = 'Chargeur 7.62x51',
+                --         model = 'w_sr_sniper_mag',
+                --         magType = 'magazine-sniper',
+                --         ammoType = 'ammo-sniper',
+                --         magSize = 5,
+                --         ammo = 0,
+                --         image = 'at_clip',
+                --     }
+                -- },
             },
 
             Requirement = {
@@ -1019,7 +1057,7 @@ return {
                     buyDialog = true,         -- Displays a dialog prompting the player to purchase the required license
                     label = "Weapon License", -- The display name of the required license
                     type = "weapon",          -- The type of the required license (e.g., "weapon")
-                    price = 1000,             -- The cost of the license
+                    price = 0000,             -- The cost of the license
                 },
             },
 
@@ -1094,10 +1132,10 @@ return {
             },
 
             Items = {
-                { label = 'Sac médical', name = 'medbag', category = "items", price = 1 },
-                { label = 'Kit de premiers secours', name = 'medikit', category = "items", price = 1 },
-                { label = 'Morphine 30MG', name = 'morphine30', category = "items", price = 1 },
-                { label = 'Percocet 30MG', name = 'perc30', category = "items", price = 1 },
+                { label = 'Sac médical', name = 'medbag', category = "items", price = 0 },
+                { label = 'Kit de premiers secours', name = 'medikit', category = "items", price = 0 },
+                { label = 'Morphine 30MG', name = 'morphine30', category = "items", price = 0 },
+                { label = 'Percocet 30MG', name = 'perc30', category = "items", price = 0 },
             },
 
             Requirement = {
@@ -1116,7 +1154,7 @@ return {
                     buyDialog = true,         -- Displays a dialog prompting the player to purchase the required license
                     label = "Weapon License", -- The display name of the required license
                     type = "weapon",          -- The type of the required license (e.g., "weapon")
-                    price = 1000,             -- The cost of the license
+                    price = 0000,             -- The cost of the license
                 },
             },
 
