@@ -154,10 +154,8 @@ return {
 
             Items = {
                 { label = 'Marteau', name = 'weapon_hammer', category = "outils", price = 25 },
-                { label = 'Tournevis', name = 'weapon_sd', category = "outils", price = 03 },
-                { label = 'Engrais de Qualité', name = 'advanced_fertilizer', category = "outils", price = 22 },
-                { label = 'Engrais Liquide', name = 'liquid_fertilizer', category = "divers", price = 00 },
-                { label = 'Bicarbonate de soude', name = 'baking_soda', category = "divers", price = 00 },
+                { label = 'Tournevis', name = 'weapon_sd', category = "outils", price = 25 },
+                { label = 'Bicarbonate de soude', name = 'baking_soda', category = "divers", price = 22 },
                 { label = 'Engrais liquide', name = 'liquid_fertilizer', category = "divers", price = 30 },
                 { label = 'Engrais', name = 'fertilizer', category = "divers", price = 25 },
                 { label = 'Engrais avancé', name = 'advanced_fertilizer', category = "divers", price = 40 },
