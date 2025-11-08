@@ -156,9 +156,9 @@ return {
                 { label = 'Marteau', name = 'weapon_hammer', category = "outils", price = 25 },
                 { label = 'Tournevis', name = 'weapon_sd', category = "outils", price = 25 },
                 { label = 'Bicarbonate de soude', name = 'baking_soda', category = "divers", price = 22 },
-                { label = 'Engrais liquide', name = 'liquid_fertilizer', category = "divers", price = 30 },
-                { label = 'Engrais', name = 'fertilizer', category = "divers", price = 25 },
-                { label = 'Engrais avancé', name = 'advanced_fertilizer', category = "divers", price = 40 },
+                { label = 'Engrais liquide', name = 'liquid_fertilizer', category = "divers", price = 10 },
+                { label = 'Engrais', name = 'fertilizer', category = "divers", price = 13 },
+                { label = 'Engrais avancé', name = 'advanced_fertilizer', category = "divers", price = 20 },
             },
 
             Requirement = {
@@ -357,8 +357,8 @@ return {
             },
 
             Items = {
-                { label = 'Papier à Rouler', name = 'paper', category = "items", price = 3 },
-                { label = 'Sac en plastique', name = 'baggie', category = "items", price = 2 },
+                { label = 'Papier à Rouler', name = 'paper', category = "items", price = 1 },
+                { label = 'Sac en plastique', name = 'baggie', category = "items", price = 1 },
                 { label = 'Pipe M', name = 'meth_pipe', category = "items", price = 5 },
                 { label = 'Pipe C', name = 'crack_pipe', category = "items", price = 5 },
                 { label = 'Bouteille d\'eau', name = 'water_bottle', category = "items", price = 5 },
