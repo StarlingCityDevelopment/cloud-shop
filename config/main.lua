@@ -46,17 +46,21 @@ return {
             },
 
             Items = {
-                { name = "sandwich",        label = "Sandwich",          category = "food",        price = 3 },
-                { name = "chips",           label = "Chips",             category = "food",        price = 2 },
-                { name = "candy",           label = "Bonbon",            category = "food",        price = 0 },
-                { name = "chocolatebar",    label = "Barre Chocolatée",  category = "food",        price = 3 },
-                { name = "water_bottle",    label = 'Bouteille d\'eau',  category = "drinks",      price = 5 },
-                { name = "radio",           label = "Radio",             category = "electronics", price = 375 },
-                { name = "phone",           label = "Phone",             category = "electronics", price = 550 },
-                { name = "cigarette",       label = "Cigarette",         category = "divers",      price = 0 },
-                { name = "skateboard",      label = "Skateboard",        category = "divers",      price = 75 },
-                { name = "wallet",          label = "Porte monnaie",     category = "divers",      price = 50 },
-                { name = "keyring",         label = "Porte-clés",        category = "divers",      price = 5 },
+                { name = "sandwich",            label = "Sandwich",          category = "food",        price = 3 },
+                { name = "chips",               label = "Chips",             category = "food",        price = 2 },
+                { name = "candy",               label = "Bonbon",            category = "food",        price = 1 },
+                { name = "chocolatebar",        label = "Barre Chocolatée",  category = "food",        price = 3 },
+                { name = "orango_tang",         label = 'Tang Orange',       category = "drinks",      price = 7 },
+                { name = "water_bottle",        label = 'Bouteille d\'eau',  category = "drinks",      price = 5 },
+                { name = "sprunk",              label = 'Sprunk',            category = "drinks",      price = 7 },
+                { name = "ice_cubes",           label = 'Glaçons',           category = "drinks",      price = 3 },
+                { name = "radio",               label = "Radio",             category = "electronics", price = 375 },
+                { name = "phone",               label = "Phone",             category = "electronics", price = 550 },
+                { name = "cigarette",           label = "Cigarette",         category = "divers",      price = 1 },
+                { name = "skateboard",          label = "Skateboard",        category = "divers",      price = 75 },
+                { name = "wallet",              label = "Porte monnaie",     category = "divers",      price = 50 },
+                { name = "keyring",             label = "Porte-clés",        category = "divers",      price = 5 },
+                { name = "styrofoam_cup_empty", label = "Gobelets",          category = "divers",      price = 2 },
             },
 
             Requirement = {
@@ -253,16 +257,12 @@ return {
             },
 
             Items = {
-                { label = 'Bicarbonate de Soude', name = 'bicarbonate', category = "items", price = 5 },
-                { label = 'Sirop à la Codéine', name = 'sirop_codeine', category = "items", price = 00 },
-                { label = 'Chloroforme', name = 'chloroforme', category = "items", price = 00 },
-                { label = 'Pseudoephedrine', name = 'pseudoephedrine', category = "items", price = 30 },
-                { label = 'Bain de Bouche', name = 'baindebouche', category = "items", price = 42 },
-                { label = 'Seringue', name = 'syringe', category = "items", price = 35 },
-                { label = 'Azote', name = 'nitrous', category = "items", price = 38 },
-                { label = 'Gobelet', name = 'cup', category = "items", price = 32 },
-                { label = 'Vinaigre Ménager', name = 'acetic_acid', category = "items", price = 7 },
-                { label = 'Acétone', name = 'acetone', category = "items", price = 7 },
+                { label = 'Sirop à la Codéine', name = 'promethazine_codeine', category = "items", price = 50 },
+                { label = 'Sirop Actavis', name = 'actavis_og', category = "items", price = 48 },
+                { label = 'Sirop Hitech', name = 'hitech_syrup', category = "items", price = 50 },
+                { label = 'Tussionex Jaune', name = 'tussionex_yellow', category = "items", price = 49 },
+                { label = 'Robitussin', name = 'robitussin_ac', category = "items", price = 48 },
+                { label = 'Biberon', name = 'babybottle_empty', category = "items", price = 2 },
             },
 
             Requirement = {
@@ -358,12 +358,10 @@ return {
 
             Items = {
                 { label = 'Papier à Rouler', name = 'paper', category = "items", price = 1 },
-                { label = 'Sac en plastique', name = 'baggie', category = "items", price = 1 },
+                { label = 'Pochon', name = 'baggie', category = "items", price = 1 },
                 { label = 'Pipe M', name = 'meth_pipe', category = "items", price = 5 },
                 { label = 'Pipe C', name = 'crack_pipe', category = "items", price = 5 },
                 { label = 'Bouteille d\'eau', name = 'water_bottle', category = "items", price = 5 },
-                { label = 'Spunk Vert', name = 'spunkgreen_drink', category = "items", price = 8 },
-                { label = 'Spunk Bleu', name = 'spunkblue_drink', category = "items", price = 8 },
             },
 
             Requirement = {
