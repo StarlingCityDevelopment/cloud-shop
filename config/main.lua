@@ -1126,16 +1126,12 @@ return {
             },
 
             Items = {
-                { label = 'Sac médical', name = 'medbag', category = "items", price = 100 },
+                { label = 'Sac médical', name = 'medbag', category = "items", price = 500 },
                 { label = 'Kit de premiers secours', name = 'medikit', category = "items", price = 50 },
                 { label = 'Morphine 30MG', name = 'morphine30', category = "items", price = 120 },
                 { label = 'Percocet 30MG', name = 'perc30', category = "items", price = 150 },
-                { label = 'Sirop à la Codéine', name = 'promethazine_codeine', category = "items", price = 30 },
-                { label = 'Sirop Actavis', name = 'actavis_og', category = "items", price = 28 },
+                { label = 'Sirop à la Codéine', name = 'promethazine_codeine', category = "items", price = 35 },
                 { label = 'Sirop Hitech', name = 'hitech_syrup', category = "items", price = 30 },
-                { label = 'Tussionex Jaune', name = 'tussionex_yellow', category = "items", price = 29 },
-                { label = 'Robitussin', name = 'robitussin_ac', category = "items", price = 28 },
-                
             },
 
             Requirement = {
