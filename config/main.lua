@@ -753,13 +753,13 @@ return {
             Locations = {
                 vector4(-601.42, -412.45, 35.17, 44.34),
                 vector4(-580.02, -723.68, 121.6, 139.09),
+                vec4(-1043.12, -227.17, 32.31, 118.86),
             },
 
             --? For icons, use Iconify: https://icon-sets.iconify.design
             Categories = {
                 { name = "Tous les produits", type = "all", icon = "ic:round-clear-all" },
                 { name = "Armes", type = "weapons", icon = "mdi:pistol" },
-                -- { name = "Chargeurs", type = "magazines", icon = "game-icons:machine-gun-magazine" },
                 { name = "Munitions", type = "ammos", icon = "game-icons:silver-bullet" },
                 { name = "Divers", type = "divers", icon = "ion:hammer" },
             },
@@ -846,188 +846,6 @@ return {
                 { name = "tracking_bracelet", label = "Bracelet de suivi", category = "divers", price = 0 },
                 { name = "bodycam", label = "Caméra corporelle", category = "divers", price = 0 },
                 { name = "dashcam", label = "Caméra pour véhicule", category = "divers", price = 0 },
-
-                -- Magazines
-                -- {
-                --     name = "magazine",
-                --     label = "Chargeur .22 Long Rifle",
-                --     category = "magazines",
-                --     price = 0,
-                --     metadata = {
-                --         label = 'Chargeur .22 Long Rifle',
-                --         model = 'w_pi_pistolmk2_mag1',
-                --         magType = 'magazine-22',
-                --         ammoType = 'ammo-22',
-                --         magSize = 15,
-                --         ammo = 0,
-                --         image = 'at_clip',
-                --     }
-                -- },
-                -- {
-                --     name = "magazine",
-                --     label = "Chargeur .38 LC",
-                --     category = "magazines",
-                --     price = 0,
-                --     metadata = {
-                --         label = 'Chargeur .38 LC',
-                --         model = 'w_pi_revolver_mag',
-                --         magType = 'magazine-38',
-                --         ammoType = 'ammo-38',
-                --         magSize = 8,
-                --         ammo = 0,
-                --         image = 'at_clip',
-                --     }
-                -- },
-                -- {
-                --     name = "magazine",
-                --     label = "Chargeur .44 Magnum",
-                --     category = "magazines",
-                --     price = 0,
-                --     metadata = {
-                --         label = 'Chargeur .44 Magnum',
-                --         model = 'w_pi_revolver_mag',
-                --         magType = 'magazine-44',
-                --         ammoType = 'ammo-44',
-                --         magSize = 6,
-                --         ammo = 0,
-                --         image = 'at_clip',
-                --     }
-                -- },
-                -- {
-                --     name = "magazine",
-                --     label = "Chargeur .45 ACP",
-                --     category = "magazines",
-                --     price = 0,
-                --     metadata = {
-                --         label = 'Chargeur .45 ACP',
-                --         model = 'w_pi_pistolmk2_mag1',
-                --         magType = 'magazine-45',
-                --         ammoType = 'ammo-45',
-                --         magSize = 10,
-                --         ammo = 0,
-                --         image = 'at_clip',
-                --     }
-                -- },
-                -- {
-                --     name = "magazine",
-                --     label = "Chargeur .50 AE",
-                --     category = "magazines",
-                --     price = 0,
-                --     metadata = {
-                --         label = 'Chargeur .50 AE',
-                --         model = 'w_pi_heavypistol_mag',
-                --         magType = 'magazine-50',
-                --         ammoType = 'ammo-50',
-                --         magSize = 7,
-                --         ammo = 0,
-                --         image = 'at_clip',
-                --     }
-                -- },
-                -- {
-                --     name = "magazine",
-                --     label = "Chargeur 9mm",
-                --     category = "magazines",
-                --     price = 0,
-                --     metadata = {
-                --         label = 'Chargeur 9mm',
-                --         model = 'w_pi_pistolmk2_mag1',
-                --         magType = 'magazine-9',
-                --         ammoType = 'ammo-9',
-                --         magSize = 12,
-                --         ammo = 0,
-                --         image = 'at_clip',
-                --     }
-                -- },
-                -- {
-                --     name = "magazine",
-                --     label = "Chargeur 10mm",
-                --     category = "magazines",
-                --     price = 0,
-                --     metadata = {
-                --         label = 'Chargeur 10mm',
-                --         model = 'w_pi_pistolmk2_mag1',
-                --         magType = 'magazine-10',
-                --         ammoType = 'ammo-10',
-                --         magSize = 11,
-                --         ammo = 0,
-                --         image = 'at_clip',
-                --     }
-                -- },
-                -- {
-                --     name = "magazine",
-                --     label = "Chargeur .50 BMG",
-                --     category = "magazines",
-                --     price = 0,
-                --     metadata = {
-                --         label = 'Chargeur .50 BMG',
-                --         model = 'w_sr_heavysniper_mag',
-                --         magType = 'magazine-heavysniper',
-                --         ammoType = 'ammo-heavysniper',
-                --         magSize = 5,
-                --         ammo = 0,
-                --         image = 'at_clip',
-                --     }
-                -- },
-                -- {
-                --     name = "magazine",
-                --     label = "Chargeur .50 Ball",
-                --     category = "magazines",
-                --     price = 0,
-                --     metadata = {
-                --         label = 'Chargeur .50 Ball',
-                --         model = 'w_sr_musket_mag',
-                --         magType = 'magazine-musket',
-                --         ammoType = 'ammo-musket',
-                --         magSize = 1,
-                --         ammo = 0,
-                --         image = 'at_clip',
-                --     }
-                -- },
-                -- {
-                --     name = "magazine",
-                --     label = "Chargeur 5.56x45",
-                --     category = "magazines",
-                --     price = 0,
-                --     metadata = {
-                --         label = 'Chargeur 5.56x45',
-                --         model = 'w_ar_rifle_mag',
-                --         magType = 'magazine-rifle',
-                --         ammoType = 'ammo-rifle',
-                --         magSize = 30,
-                --         ammo = 0,
-                --         image = 'at_clip',
-                --     }
-                -- },
-                -- {
-                --     name = "magazine",
-                --     label = "Chargeur 7.62x39",
-                --     category = "magazines",
-                --     price = 0,
-                --     metadata = {
-                --         label = 'Chargeur 7.62x39',
-                --         model = 'w_ar_rifle_mag',
-                --         magType = 'magazine-rifle2',
-                --         ammoType = 'ammo-rifle2',
-                --         magSize = 30,
-                --         ammo = 0,
-                --         image = 'at_clip',
-                --     }
-                -- },
-                -- {
-                --     name = "magazine",
-                --     label = "Chargeur 7.62x51",
-                --     category = "magazines",
-                --     price = 0,
-                --     metadata = {
-                --         label = 'Chargeur 7.62x51',
-                --         model = 'w_sr_sniper_mag',
-                --         magType = 'magazine-sniper',
-                --         ammoType = 'ammo-sniper',
-                --         magSize = 5,
-                --         ammo = 0,
-                --         image = 'at_clip',
-                --     }
-                -- },
             },
 
             Requirement = {
@@ -1042,6 +860,11 @@ return {
                         {
                             label = "USSS", -- The display name of the required job
                             name = "usss",  -- The name of the required job
+                            grade = 0,        -- Minimum job grade required to access the shop
+                        },
+                        {
+                            label = "DHS", -- The display name of the required job
+                            name = "dhs",  -- The name of the required job
                             grade = 0,        -- Minimum job grade required to access the shop
                         },
                     },
@@ -1113,6 +936,7 @@ return {
                 },
             },
         },
+
         ["ambulance_shop"] = {
             PointRadius = 25.0, -- The radius within which markers, peds, and other game elements related to the shop are displayed
 
