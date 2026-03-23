@@ -747,19 +747,18 @@ return {
             },
         },
 
-        ["armoury"] = {
+        ["armoury_LSPD"] = {
             PointRadius = 25.0, -- The radius within which markers, peds, and other game elements related to the shop are displayed
 
             Locations = {
                 vector4(-601.42, -412.45, 35.17, 44.34),
-                vector4(-580.02, -723.68, 121.6, 139.09),
-                vec4(-1043.12, -227.17, 32.31, 118.86),
             },
 
             --? For icons, use Iconify: https://icon-sets.iconify.design
             Categories = {
                 { name = "Tous les produits", type = "all", icon = "ic:round-clear-all" },
                 { name = "Armes", type = "weapons", icon = "mdi:pistol" },
+                { name = "Accessoires", type = "accessory", icon = "line-md:cog" },
                 { name = "Munitions", type = "ammos", icon = "game-icons:silver-bullet" },
                 { name = "Divers", type = "divers", icon = "ion:hammer" },
             },
@@ -770,75 +769,38 @@ return {
                 { name = "WEAPON_FLASHLIGHT", label = "Lampe torche", category = "weapons", price = 0 },
                 { name = "WEAPON_PDBATON", label = "Matraque", category = "weapons", price = 0 },
 
-                -- Blade / close combat
-                { name = "WEAPON_KNIFE", label = "Couteau", category = "weapons", price = 0 },
-
                 -- Tasers
-                { name = "WEAPON_BTASER", label = "Taser Noir", category = "weapons", price = 0 },
                 { name = "WEAPON_YTASER", label = "Taser Jaune", category = "weapons", price = 0 },
 
                 -- Service pistols / handguns
-                { name = "WEAPON_G17", label = "G17", category = "weapons", price = 0 },
                 { name = "WEAPON_GLOCK22", label = "Glock 22", category = "weapons", price = 0 },
-                { name = "WEAPON_COMBATPISTOL", label = "Pistolet de combat", category = "weapons", price = 0 },
-                { name = "WEAPON_FN57", label = "FN57", category = "weapons", price = 0 },
-                { name = "WEAPON_P30L", label = "P30L", category = "weapons", price = 0 },
-                { name = "WEAPON_PDT19", label = "Titan 19", category = "weapons", price = 0 },
-                { name = "WEAPON_PDT22", label = "Titan 22", category = "weapons", price = 0 },
-                { name = "WEAPON_PDMKUSP", label = "MK USP", category = "weapons", price = 0 },
-
-                -- Submachine guns / PD SMGs
-                { name = "WEAPON_MP5", label = "MP5", category = "weapons", price = 0 },
-                { name = "WEAPON_MPX", label = "MPX", category = "weapons", price = 0 },
-
-                -- Compact / short-barrel shotguns
-                { name = "WEAPON_MINISHOTGUN", label = "Shortgun", category = "weapons", price = 0 },
-                { name = "WEAPON_BRYSON", label = "Bryson 890", category = "weapons", price = 0 },
 
                 -- Patrol / duty shotguns
-                { name = "WEAPON_M870", label = "Remington M870", category = "weapons", price = 0 },
-                { name = "WEAPON_PDPT870", label = "Patrol 870", category = "weapons", price = 0 },
-                { name = "WEAPON_PDPT700", label = "Patrol M700", category = "weapons", price = 0 },
                 { name = "WEAPON_PDBR5", label = "Breach M5", category = "weapons", price = 0 },
 
                 -- Carbines / assault rifles
-                { name = "WEAPON_AR15", label = "AR15", category = "weapons", price = 0 },
-                { name = "WEAPON_XM4", label = "Colt XM4", category = "weapons", price = 0 },
-                { name = "WEAPON_M16", label = "M16", category = "weapons", price = 0 },
                 { name = "WEAPON_G36K", label = "G36K", category = "weapons", price = 0 },
-                { name = "WEAPON_LVOCA", label = "LVOA-C", category = "weapons", price = 0 },
-                { name = "WEAPON_BSCAR", label = "Black Scar", category = "weapons", price = 0 },
-                { name = "WEAPON_TACTICALRIFLE", label = "Fusil tactique", category = "weapons", price = 0 },
-
-                -- Designated marksman / precision
-                { name = "WEAPON_MK417", label = "MK417", category = "weapons", price = 0 },
-                { name = "WEAPON_PDMK33", label = "MK433", category = "weapons", price = 0 },
-                { name = "WEAPON_PDMK45", label = "MK45", category = "weapons", price = 0 },
 
                 -- Heavy / sniper
-                { name = "WEAPON_BARRETT", label = "Barrett 50", category = "weapons", price = 0 },
+                { name = "WEAPON_PDPT700", label = "PD Patrol M700", category = "weapons", price = 0 },
 
                 -- Specialized duty rifles
-                { name = "WEAPON_PDDT607", label = "Duty M607", category = "weapons", price = 0 },
-                { name = "WEAPON_PDDT7", label = "Duty C7", category = "weapons", price = 0 },
+                { name = "WEAPON_SPEAR", label = "MCX Spear", category = "weapons", price = 0 },
 
                 -- Misc / legacy
-                { name = "WEAPON_PDBR5", label = "Breach M5", category = "weapons", price = 0 }, -- kept for breaching roles
-                { name = "WEAPON_PDFC66", label = "Force P66", category = "weapons", price = 0 },
+                { name = "WEAPON_AIRSOFTR870", label = "Airsoft R870", category = "weapons", price = 0 },
+                { name = "WEAPON_AIRSOFTG36C", label = "Airsoft G36C", category = "weapons", price = 0 },
 
+                -- Accessories
+                { name = "at_scope_medium", label = "Lunette Moyenne", category = "accessory", price = 0 },
+                { name = "at_flashlight", label = "Lampe", category = "accessory", price = 0 },
+                
                 -- Ammos
-                { name = "box_ammo_airsoft", label = "Boîte de billes Airsoft (250)", category = "ammos", price = 0 },
-                { name = "box_ammo_22", label = "Boîte de munitions .22 LR (120)", category = "ammos", price = 0 },
-                { name = "box_ammo_38", label = "Boîte de munitions .38 LC (60)", category = "ammos", price = 0 },
-                { name = "box_ammo_44", label = "Boîte de munitions .44 Magnum (50)", category = "ammos", price = 0 },
-                { name = "box_ammo_45", label = "Boîte de munitions .45 ACP (100)", category = "ammos", price = 0 },
-                { name = "box_ammo_50", label = "Boîte de munitions .50 AE (40)", category = "ammos", price = 0 },
                 { name = "box_ammo_9", label = "Boîte de munitions 9mm (120)", category = "ammos", price = 0 },
-                { name = "box_ammo_10", label = "Boîte de munitions 10mm (120)", category = "ammos", price = 0 },
-                { name = "box_ammo_rifle", label = "Boîte de munitions 5.56x45 (180)", category = "ammos", price = 0 },
-                { name = "box_ammo_rifle2", label = "Boîte de munitions 7.62x39 (150)", category = "ammos", price = 0 },
-                { name = "box_ammo_sniper", label = "Boîte de munitions 7.62x51 (80)", category = "ammos", price = 0 },
                 { name = "box_ammo_shotgun", label = "Boîte de cartouches 12 Gauge (50)", category = "ammos", price = 0 },
+                { name = "box_ammo_rifle", label = "Boîte de munitions 5.56x45 (180)", category = "ammos", price = 0 },
+                { name = "box_ammo_sniper", label = "Boîte de munitions 7.62x51 (80)", category = "ammos", price = 0 },
+                { name = "box_ammo_airsoft", label = "Boîte de billes Airsoft (250)", category = "ammos", price = 0 },
 
                 -- Divers
                 { name = "radio", label = "Radio", category = "divers", price = 0 },
@@ -857,11 +819,145 @@ return {
                             name = "police",  -- The name of the required job
                             grade = 0,        -- Minimum job grade required to access the shop
                         },
-                        {
-                            label = "USSS", -- The display name of the required job
-                            name = "usss",  -- The name of the required job
-                            grade = 0,        -- Minimum job grade required to access the shop
-                        },
+                    },
+                },
+                License = {
+                    required = false,         -- Whether a license is required to access the shop
+                    buyDialog = true,         -- Displays a dialog prompting the player to purchase the required license
+                    label = "Weapon License", -- The display name of the required license
+                    type = "weapon",          -- The type of the required license (e.g., "weapon")
+                    price = 0000,             -- The cost of the license
+                },
+            },
+
+            Locales = { --? More locales including the currency symbol, button text and more can be found in "locales/"
+                MainHeader = {
+                    title = "Armurerie",
+                    tag = "Armes",
+                    description =
+                    "Bienvenue dans l'armurerie, où nous sommes toujours là pour vous armer, jour et nuit !\nDécouvrez une sélection de produits de qualité pour affronter la racaille !",
+                },
+                CartHeader = {
+                    title = "Panier",
+                    tag = "Panier",
+                    description =
+                    "Vérifiez vos articles sélectionnés avant de valider la commande",
+                },
+            },
+
+            Blip = {
+                enabled = false,     -- If true, displays a map blip for the shop locations
+                name = "Armurerie", -- Name displayed on the map
+                sprite = 110,       -- Blip icon type --? Reference: https://docs.fivem.net/docs/game-references/blips
+                color = 1,          -- Blip color --? Reference: https://docs.fivem.net/docs/game-references/blips/#blip-colors
+                scale = 0.7,        -- Size of the blip
+            },
+
+            Indicator = {
+                Ped = {
+                    enabled = true,                    -- If true, spawns a ped (NPC) at the locations
+                    model = `s_f_y_cop_01`,         -- Ped model type --? Reference: https://docs.fivem.net/docs/game-references/ped-models
+                    scenario = "WORLD_HUMAN_AA_SMOKE", -- Animation scenario for the ped --? Reference: https://github.com/DioneB/gtav-scenarios
+                },
+                Marker = {
+                    enabled = false,               -- If true, displays a marker at the shop locations
+                    type = 20,                     -- Marker type --? Reference: https://docs.fivem.net/docs/game-references/markers
+                    size = vec3(0.7, 0.7, 0.7),    -- Size of the marker
+                    color = { 65, 133, 235, 120 }, -- RGBA color of the marker
+                    bobUpAndDown = false,          -- If true, marker moves up and down
+                    faceCamera = false,            -- If true, marker faces the player's camera
+                    rotate = true,                 -- If true, marker rotates
+                },
+            },
+
+            Interaction = {
+                OpenKey = 38,        -- Default: 38 (E key) --? Reference: https://docs.fivem.net/docs/game-references/controls
+                HelpText = {
+                    enabled = false, -- If true, displays floating help text near the interaction point
+                    distance = 2.5,  -- Distance within which help text appears and is interactable
+                },
+                FloatingText = {
+                    enabled = false,             -- If true, displays floating text above the shop NPC
+                    distance = 2.5,              -- Distance within which floating text is visible and interactable
+                },
+                Target = {                       -- Uses ox_target by default --? (modifiable in config/functions.lua)
+                    enabled = true,              -- If true, enables targeting system
+                    boxZoneSize = vec3(4, 4, 4), -- Size of the target zone
+                    drawSprite = true,           -- If true, displays a sprite for the target zone
+                    distance = 2.5,              -- Interaction distance
+                },
+            },
+        },
+
+        ["armoury_DHS"] = {
+            PointRadius = 25.0, -- The radius within which markers, peds, and other game elements related to the shop are displayed
+
+            Locations = {
+                vector4(-1043.12, -227.17, 32.31, 118.86),
+            },
+
+            --? For icons, use Iconify: https://icon-sets.iconify.design
+            Categories = {
+                { name = "Tous les produits", type = "all", icon = "ic:round-clear-all" },
+                { name = "Armes", type = "weapons", icon = "mdi:pistol" },
+                { name = "Accessoires", type = "accessory", icon = "line-md:cog" },
+                { name = "Munitions", type = "ammos", icon = "game-icons:silver-bullet" },
+                { name = "Divers", type = "divers", icon = "ion:hammer" },
+            },
+
+            Items = {
+                -- Weapons
+
+                -- Tasers
+                --{ name = "WEAPON_BTASER", label = "Taser Noir", category = "weapons", price = 0 },
+                { name = "WEAPON_YTASER", label = "Taser Jaune", category = "weapons", price = 0 },
+
+                -- Service pistols / handguns
+                { name = "WEAPON_GLOCK22", label = "Glock 22", category = "weapons", price = 0 },
+
+                -- Submachine guns / PD SMGs
+                { name = "WEAPON_MP9", label = "MP9", category = "weapons", price = 0 },
+
+                -- Patrol / duty shotguns
+                { name = "WEAPON_M870", label = "Remington M870", category = "weapons", price = 0 },
+
+                -- Carbines / assault rifles
+                { name = "WEAPON_BAR15", label = "BAR15", category = "weapons", price = 0 },
+
+                -- Heavy / sniper
+                { name = "WEAPON_BARRETT", label = "Barrett 50", category = "weapons", price = 0 },
+
+                -- Specialized duty rifles
+                { name = "WEAPON_PDPT700", label = "PD Patrol M700", category = "weapons", price = 0 },
+
+                -- Misc / legacy
+                { name = "WEAPON_AIRSOFTR870", label = "Airsoft R870", category = "weapons", price = 0 },
+
+                -- Accessories
+                { name = "at_scope_medium", label = "Lunette Moyenne", category = "accessory", price = 0 },
+                { name = "at_scope_macro", label = "Lunette Macro", category = "accessory", price = 0 },
+                { name = "at_flashlight", label = "Lampe", category = "accessory", price = 0 },
+                { name = "at_grip", label = "Grip", category = "accessory", price = 0 },
+                
+                -- Ammos
+                { name = "box_ammo_9", label = "Boîte de munitions 9mm (120)", category = "ammos", price = 0 },
+                { name = "box_ammo_shotgun", label = "Boîte de cartouches 12 Gauge (50)", category = "ammos", price = 0 },
+                { name = "box_ammo_rifle", label = "Boîte de munitions 5.56x45 (180)", category = "ammos", price = 0 },
+                { name = "box_ammo_sniper", label = "Boîte de munitions 7.62x51 (80)", category = "ammos", price = 0 },
+                { name = "box_ammo_airsoft", label = "Boîte de billes Airsoft (250)", category = "ammos", price = 0 },
+
+                -- Divers
+                { name = "radio", label = "Radio", category = "divers", price = 0 },
+                { name = "handcuffs", label = "Menottes", category = "divers", price = 0 },
+                { name = "tracking_bracelet", label = "Bracelet de suivi", category = "divers", price = 0 },
+                { name = "bodycam", label = "Caméra corporelle", category = "divers", price = 0 },
+                { name = "dashcam", label = "Caméra pour véhicule", category = "divers", price = 0 },
+            },
+
+            Requirement = {
+                Job = {
+                    required = true, -- Whether a job is required to access the shop
+                    jobs = {
                         {
                             label = "DHS", -- The display name of the required job
                             name = "dhs",  -- The name of the required job
