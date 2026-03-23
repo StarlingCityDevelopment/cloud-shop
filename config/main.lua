@@ -471,7 +471,7 @@ return {
                 { name = "WEAPON_FLASHLIGHT", label = "Lampe torche", category = "weapons", price = 300 },
 
                 -- Ammos
-                { name = "box_ammo_airsoft", label = "Boîte de billes Airsoft (250)", category = "ammos", price = 000 },
+                { name = "box_ammo_airsoft", label = "Boîte de billes Airsoft (250)", category = "ammos", price = 030 },
                 { name = "box_ammo_22", label = "Boîte de munitions .22 LR (120)", category = "ammos", price = 250 },
                 { name = "box_ammo_38", label = "Boîte de munitions .38 LC (60)", category = "ammos", price = 400 },
                 { name = "box_ammo_44", label = "Boîte de munitions .44 Magnum (50)", category = "ammos", price = 500 },
