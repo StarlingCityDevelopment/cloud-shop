@@ -459,7 +459,7 @@ return {
                 { name = "Tous les produits", type = "all", icon = "ic:round-clear-all" },
                 { name = "Armes", type = "weapons", icon = "mdi:pistol" },
                 -- { name = "Chargeurs", type = "magazines", icon = "game-icons:machine-gun-magazine" },
-                { name = "Munitions", type = "ammos", icon = "game-icons:silver-bullet" },
+                -- { name = "Munitions", type = "ammos", icon = "game-icons:silver-bullet" },
             },
 
             Items = {
@@ -471,18 +471,18 @@ return {
                 { name = "WEAPON_FLASHLIGHT", label = "Lampe torche", category = "weapons", price = 300 },
 
                 -- Ammos
-                { name = "box_ammo_airsoft", label = "Boîte de billes Airsoft (250)", category = "ammos", price = 030 },
-                { name = "box_ammo_22", label = "Boîte de munitions .22 LR (120)", category = "ammos", price = 250 },
-                { name = "box_ammo_38", label = "Boîte de munitions .38 LC (60)", category = "ammos", price = 400 },
-                { name = "box_ammo_44", label = "Boîte de munitions .44 Magnum (50)", category = "ammos", price = 500 },
-                { name = "box_ammo_45", label = "Boîte de munitions .45 ACP (100)", category = "ammos", price = 450 },
-                { name = "box_ammo_50", label = "Boîte de munitions .50 AE (40)", category = "ammos", price = 650 },
-                { name = "box_ammo_9", label = "Boîte de munitions 9mm (120)", category = "ammos", price = 350 },
-                { name = "box_ammo_10", label = "Boîte de munitions 10mm (120)", category = "ammos", price = 400 },
-                { name = "box_ammo_rifle", label = "Boîte de munitions 5.56x45 (180)", category = "ammos", price = 600 },
-                { name = "box_ammo_rifle2", label = "Boîte de munitions 7.62x39 (150)", category = "ammos", price = 650 },
-                { name = "box_ammo_sniper", label = "Boîte de munitions 7.62x51 (80)", category = "ammos", price = 800 },
-                { name = "box_ammo_shotgun", label = "Boîte de cartouches 12 Gauge (50)", category = "ammos", price = 500 },
+                --{ name = "box_ammo_airsoft", label = "Boîte de billes Airsoft (250)", category = "ammos", price = 030 },
+                --{ name = "box_ammo_22", label = "Boîte de munitions .22 LR (120)", category = "ammos", price = 250 },
+                --{ name = "box_ammo_38", label = "Boîte de munitions .38 LC (60)", category = "ammos", price = 400 },
+                --{ name = "box_ammo_44", label = "Boîte de munitions .44 Magnum (50)", category = "ammos", price = 500 },
+                --{ name = "box_ammo_45", label = "Boîte de munitions .45 ACP (100)", category = "ammos", price = 450 },
+                --{ name = "box_ammo_50", label = "Boîte de munitions .50 AE (40)", category = "ammos", price = 650 },
+                --{ name = "box_ammo_9", label = "Boîte de munitions 9mm (120)", category = "ammos", price = 350 },
+                --{ name = "box_ammo_10", label = "Boîte de munitions 10mm (120)", category = "ammos", price = 400 },
+                --{ name = "box_ammo_rifle", label = "Boîte de munitions 5.56x45 (180)", category = "ammos", price = 600 },
+                --{ name = "box_ammo_rifle2", label = "Boîte de munitions 7.62x39 (150)", category = "ammos", price = 650 },
+                --{ name = "box_ammo_sniper", label = "Boîte de munitions 7.62x51 (80)", category = "ammos", price = 800 },
+                --{ name = "box_ammo_shotgun", label = "Boîte de cartouches 12 Gauge (50)", category = "ammos", price = 500 },
 
 
                 -- Magazines
