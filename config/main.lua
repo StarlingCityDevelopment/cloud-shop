@@ -779,7 +779,7 @@ return {
                 { name = "WEAPON_PDBR5", label = "Breach M5", category = "weapons", price = 0 },
 
                 -- Carbines / assault rifles
-                { name = "WEAPON_G36K", label = "G36K", category = "weapons", price = 0 },
+                { name = "WEAPON_BAR15", label = "BAR15", category = "weapons", price = 0 },
 
                 -- Heavy / sniper
                 { name = "WEAPON_PDPT700", label = "PD Patrol M700", category = "weapons", price = 0 },
@@ -794,6 +794,7 @@ return {
                 -- Accessories
                 { name = "at_scope_medium", label = "Lunette Moyenne", category = "accessory", price = 0 },
                 { name = "at_flashlight", label = "Lampe", category = "accessory", price = 0 },
+                { name = "at_grip", label = "Grip", category = "accessory", price = 0 },
                 
                 -- Ammos
                 { name = "box_ammo_9", label = "Boîte de munitions 9mm (120)", category = "ammos", price = 0 },
