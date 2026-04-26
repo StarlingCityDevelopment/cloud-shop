@@ -463,9 +463,9 @@ return {
             },
 
             Items = {
-                { name = "WEAPON_KNUCKLE", label = "Poing américain", category = "weapons", price = 500 },
-                { name = "WEAPON_KNIFE", label = "Couteau", category = "weapons", price = 500 },
-                { name = "WEAPON_SWITCHBLADE", label = "Couteau à cran d'arrêt", category = "weapons", price = 300 },
+                -- { name = "WEAPON_KNUCKLE", label = "Poing américain", category = "weapons", price = 500 },
+                -- { name = "WEAPON_KNIFE", label = "Couteau", category = "weapons", price = 500 },
+                -- { name = "WEAPON_SWITCHBLADE", label = "Couteau à cran d'arrêt", category = "weapons", price = 300 },
                 { name = "WEAPON_BAT", label = "Batte", category = "weapons", price = 250 },
                 { name = "WEAPON_GOLFCLUB", label = "Club de golf", category = "weapons", price = 350 },
                 { name = "WEAPON_FLASHLIGHT", label = "Lampe torche", category = "weapons", price = 300 },
