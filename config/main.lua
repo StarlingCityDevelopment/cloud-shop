@@ -1133,5 +1133,101 @@ return {
                 },
             },
         },
+        ["illegalseller"] = {
+            PointRadius = 25.0, -- The radius within which markers, peds, and other game elements related to the shop are displayed
+
+            Locations = {
+                vec4(-59.34, -1207.93, 28.30, 135.09),
+            },
+
+            --? For icons, use Iconify: https://icon-sets.iconify.design
+            Categories = {
+                { name = "Tous les produits", type = "all", icon = "ic:round-clear-all" }, --! Required for all shops
+                { name = "Divers", type = "divers", icon = "ic:round-palette" },
+            },
+
+            Items = {
+                { label = 'Foreuse', name = 'drill', category = "divers", price = 300 },
+                { label = 'Crochet', name = 'lockpick', category = "divers", price = 50 },
+            },
+
+            Requirement = {
+                Job = {
+                    required = false, -- Whether a job is required to access the shop
+                    jobs = {
+                        {
+                            label = "Police", -- The display name of the required job
+                            name = "police",  -- The name of the required job
+                            grade = 0,        -- Minimum job grade required to access the shop
+                        },
+                    },
+                },
+                License = {
+                    required = false,         -- Whether a license is required to access the shop
+                    buyDialog = true,         -- Displays a dialog prompting the player to purchase the required license
+                    label = "Weapon License", -- The display name of the required license
+                    type = "weapon",          -- The type of the required license (e.g., "weapon")
+                    price = 0000,             -- The cost of the license
+                },
+            },
+
+            Locales = { --? More locales including the currency symbol, button text and more can be found in "locales/"
+                MainHeader = {
+                    title = "Vendeur à la Sauvette",
+                    tag = "Illegal",
+                    description =
+                    "Ici, on pose pas de questions...",
+                },
+                CartHeader = {
+                    title = "Panier",
+                    tag = "Panier",
+                    description =
+                    "Vérifiez vos articles sélectionnés et procédez à un paiement sécurisé et facile avec plusieurs options.",
+                },
+            },
+
+            Blip = {
+                enabled = false,     -- If true, displays a map blip for the shop locations
+                name = "Vendeur à la Sauvette", -- Name displayed on the map
+                sprite = 205,        -- Blip icon type --? Reference: https://docs.fivem.net/docs/game-references/blips
+                color = 40,         -- Blip color --? Reference: https://docs.fivem.net/docs/game-references/blips/#blip-colors
+                scale = 0.6,        -- Size of the blip
+            },
+
+            Indicator = {
+                Ped = {
+                    enabled = true,                    -- If true, spawns a ped (NPC) at the locations
+                    model = `a_m_m_og_boss_01`,            -- Ped model type --? Reference: https://docs.fivem.net/docs/game-references/ped-models
+                    scenario = "WORLD_HUMAN_AA_SMOKE", -- Animation scenario for the ped --? Reference: https://github.com/DioneB/gtav-scenarios
+                },
+                Marker = {
+                    enabled = false,               -- If true, displays a marker at the shop locations
+                    type = 20,                     -- Marker type --? Reference: https://docs.fivem.net/docs/game-references/markers
+                    size = vec3(0.7, 0.7, 0.7),    -- Size of the marker
+                    color = { 65, 133, 235, 120 }, -- RGBA color of the marker
+                    bobUpAndDown = false,          -- If true, marker moves up and down
+                    faceCamera = false,            -- If true, marker faces the player's camera
+                    rotate = true,                 -- If true, marker rotates
+                },
+            },
+
+            Interaction = {
+                OpenKey = 38,        -- Default: 38 (E key) --? Reference: https://docs.fivem.net/docs/game-references/controls
+                HelpText = {
+                    enabled = false, -- If true, displays floating help text near the interaction point
+                    distance = 2.5,  -- Distance within which help text appears and is interactable
+                },
+                FloatingText = {
+                    enabled = false,             -- If true, displays floating text above the shop NPC
+                    distance = 2.5,              -- Distance within which floating text is visible and interactable
+                },
+                Target = {                       -- Uses ox_target by default --? (modifiable in config/functions.lua)
+                    enabled = true,              -- If true, enables targeting system
+                    boxZoneSize = vec3(4, 4, 4), -- Size of the target zone
+                    drawSprite = true,           -- If true, displays a sprite for the target zone
+                    distance = 2.5,              -- Interaction distance
+                },
+            },
+        },
     },
 }
